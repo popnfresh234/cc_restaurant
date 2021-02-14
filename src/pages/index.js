@@ -4,13 +4,13 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
+      
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
@@ -27,6 +27,9 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
+      <Link to="/home">
+        <span>Go to this testaroo</span>
+      </Link>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
