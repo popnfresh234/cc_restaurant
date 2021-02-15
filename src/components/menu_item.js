@@ -14,6 +14,13 @@ const MenuText = styled.div`
   font-size: 1rem;
 `
 
+const Dot = styled.div`
+flex: 1;
+align-self: stretch;
+margin: 0 6px 6px 6px;
+border-bottom: 1px dashed black;
+`
+
 const MenuSubText = styled.div`
   font-size: 0.8rem;
   font-family: "Noto Sans TC";
@@ -25,8 +32,16 @@ const MenuItemContainer = styled.div`
   align-items: center;
 `
 
+const MenuHeaderContainer = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+`
+
 const DescriptionContainer = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
 `
 
@@ -36,9 +51,14 @@ const MenuItem = ({ fluid, code, english, chinese, price }) => {
       <MenuItemContainer>
         <MenuImage fluid={fluid} />
         <DescriptionContainer>
-          <MenuText>
-            {code.toUpperCase()} {english}
-          </MenuText>
+          <MenuHeaderContainer>
+            <MenuText>
+              {code.toUpperCase()} {english}
+            </MenuText>
+            <Dot />
+            <MenuText>{price}</MenuText>
+          </MenuHeaderContainer>
+
           <MenuSubText>{chinese}</MenuSubText>
         </DescriptionContainer>
       </MenuItemContainer>
