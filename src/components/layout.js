@@ -1,8 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Navbar from "./Navbar/Navbar"
+import Img from "gatsby-image"
+import styled from "styled-components"
+import "@fontsource/noto-sans-tc"
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
+  const LogoWrap = styled.div`
+   
+  `
   const isRootPath = location.pathname === rootPath
   let header
 
@@ -20,16 +28,38 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
+  const data = useStaticQuery(graphql`
+    query {
+      file(name: { eq: "logo" }, extension: { eq: "png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000, pngQuality: 80) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
-    </div>
+    <>
+      <Navbar />
+      <div className="global-wrapper" data-is-root-path={isRootPath}>
+        <header className="global-header">
+          <>
+            <LogoWrap as={Link} to="/">
+              <Img fluid={data.file.childImageSharp.fluid} alt="logo" />
+            </LogoWrap>
+            {header}
+          </>
+        </header>
+        <main>{children}</main>
+        <footer>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        </footer>
+      </div>
+    </>
   )
 }
 
