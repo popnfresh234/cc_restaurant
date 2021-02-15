@@ -22,6 +22,10 @@ const CategoryText = styled.div`
   font-size: 24px;
   letter-spacing: 1px;
   color: #472b2b; ;
+
+  @media (max-width: 768px) {
+    font-size: 17px;
+  }
 `
 
 const Dot = styled.div`
@@ -56,6 +60,7 @@ const DescriptionContainer = styled.div`
 `
 
 const CategoryDiv = styled.div`
+margin: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
