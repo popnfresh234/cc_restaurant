@@ -76,7 +76,7 @@ export const pageQuery = graphql`
     ) {
       nodes {
         childImageSharp {
-          fluid(maxWidth: 70, maxHeight: 70) {
+          fluid(maxWidth: 200, maxHeight: 200) {
             originalName
             ...GatsbyImageSharpFluid
           }
@@ -85,7 +85,7 @@ export const pageQuery = graphql`
     }
     file(extension: { eq: "png" }, name: { eq: "place_holder" }) {
       childImageSharp {
-        fluid(maxWidth: 70, maxHeight: 70) {
+        fluid(maxWidth: 200, maxHeight: 200) {
           originalName
           ...GatsbyImageSharpFluid
         }
