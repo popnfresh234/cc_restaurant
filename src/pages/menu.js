@@ -1,7 +1,13 @@
 import React from "react"
 import MenuItem from "../components/menu_item"
+import Layout from "../components/layout"
+import styled from "styled-components"
 
-const Menu = ({ data }) => {
+const NoStyleOl = styled.ol`
+  list-style-type: none;
+`
+
+const Menu = ({ data, location }) => {
   const pictures = data.allFile.nodes.map(node => {
     const obj = {}
     const name = node.childImageSharp.fluid.originalName.replace(
@@ -30,12 +36,19 @@ const Menu = ({ data }) => {
             ? picLookup[item.code]
             : data.file.childImageSharp.fluid
         }
-        name={item.name}
+        code={item.code}
+        english={item.english}
+        chinese={item.chinese}
+        price={item.price}
       />
     )
   })
 
-  return <ol>{menuItems}</ol>
+  return (
+    <Layout location={location}>
+      <NoStyleOl>{menuItems}</NoStyleOl>
+    </Layout>
+  )
 }
 
 export default Menu
@@ -49,7 +62,9 @@ export const pageQuery = graphql`
     allMenuItemsCsv {
       nodes {
         code
-        name
+        english
+        chinese
+        price
       }
     }
     allFile(

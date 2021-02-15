@@ -1,5 +1,7 @@
 /* CSS Custom Properties Definitions */
-
+/* * {
+  border: 1px solid red;
+} */
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -28,7 +30,7 @@
   --spacing-24: 6rem;
   --spacing-32: 8rem;
   --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans TC" sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;

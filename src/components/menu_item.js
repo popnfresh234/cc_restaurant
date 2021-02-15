@@ -10,8 +10,14 @@ const MenuImage = styled(Img)`
   flex: 1;
 `
 
-const MenuText = styled.p`
+const MenuText = styled.div`
   font-size: 1rem;
+`
+
+const MenuSubText = styled.div`
+  font-size: 0.8rem;
+  font-family: "Noto Sans TC";
+  color: #696269;
 `
 
 const MenuItemContainer = styled.div`
@@ -19,12 +25,22 @@ const MenuItemContainer = styled.div`
   align-items: center;
 `
 
-const MenuItem = ({ fluid, name }) => {
+const DescriptionContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+const MenuItem = ({ fluid, code, english, chinese, price }) => {
   return (
     <li>
       <MenuItemContainer>
         <MenuImage fluid={fluid} />
-        <MenuText>{name}</MenuText>
+        <DescriptionContainer>
+          <MenuText>
+            {code.toUpperCase()} {english}
+          </MenuText>
+          <MenuSubText>{chinese}</MenuSubText>
+        </DescriptionContainer>
       </MenuItemContainer>
     </li>
   )
