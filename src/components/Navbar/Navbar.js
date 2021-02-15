@@ -19,7 +19,7 @@ const Navigation = styled.nav`
   align-self: center;
 
   @media (max-width: 768px) {
-    justify-content: space-between;
+    justify-content: flex-end;
     position: sticky;
     height: 8vh;
     top: 0;
@@ -33,7 +33,7 @@ const Toggle = styled.div`
   display: none;
   height: 100%;
   cursor: pointer;
-  padding: 0 10vw;
+  padding: 0 5vw;
 
   @media (max-width: 768px) {
     display: flex;
@@ -95,7 +95,6 @@ const Navbar = () => {
 
   return (
     <Navigation>
-      <Logo />
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
