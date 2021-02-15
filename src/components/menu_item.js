@@ -6,12 +6,29 @@ const MenuImage = styled(Img)`
   max-width: 70px;
   max-height: 70px;
   border-radius: 50%;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem 0 0;
   flex: 1;
 `
 
 const MenuText = styled.div`
   font-size: 1rem;
+`
+
+const CategoryText = styled.div`
+  font-style: normal;
+  font-weight: 100;
+  font-family: Noto Sans TC;
+  line-height: 30px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #472b2b; ;
+`
+
+const Dot = styled.div`
+  flex: 1;
+  align-self: stretch;
+  margin: 0 6px 6px 6px;
+  border-bottom: 1px dashed black;
 `
 
 const MenuSubText = styled.div`
@@ -25,20 +42,54 @@ const MenuItemContainer = styled.div`
   align-items: center;
 `
 
+const MenuHeaderContainer = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+`
+
 const DescriptionContainer = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
 `
 
+const CategoryDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+const formatPrice = (price) => {
+  const priceArr = price.split('')
+  priceArr.splice(priceArr.length -2, 0, '.')
+  return priceArr.join('')
+}
+
 const MenuItem = ({ fluid, code, english, chinese, price }) => {
+  if (code === "header") {
+    return (
+      <CategoryDiv>
+        <CategoryText>{chinese}</CategoryText>
+        <CategoryText>{english}</CategoryText>
+      </CategoryDiv>
+    )
+  }
+
   return (
     <li>
       <MenuItemContainer>
         <MenuImage fluid={fluid} />
         <DescriptionContainer>
-          <MenuText>
-            {code.toUpperCase()} {english}
-          </MenuText>
+          <MenuHeaderContainer>
+            <MenuText>
+              {english}
+            </MenuText>
+            <Dot />
+            <MenuText>{formatPrice(price)}</MenuText>
+          </MenuHeaderContainer>
+
           <MenuSubText>{chinese}</MenuSubText>
         </DescriptionContainer>
       </MenuItemContainer>

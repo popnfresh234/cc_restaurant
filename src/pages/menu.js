@@ -2,6 +2,7 @@ import React from "react"
 import MenuItem from "../components/menu_item"
 import Layout from "../components/layout"
 import styled from "styled-components"
+import { graphql } from "gatsby"
 
 const NoStyleOl = styled.ol`
   list-style-type: none;
@@ -75,7 +76,7 @@ export const pageQuery = graphql`
     ) {
       nodes {
         childImageSharp {
-          fluid(maxWidth: 70, maxHeight: 70) {
+          fluid(maxWidth: 200, maxHeight: 200) {
             originalName
             ...GatsbyImageSharpFluid
           }
@@ -84,7 +85,7 @@ export const pageQuery = graphql`
     }
     file(extension: { eq: "png" }, name: { eq: "place_holder" }) {
       childImageSharp {
-        fluid(maxWidth: 70, maxHeight: 70) {
+        fluid(maxWidth: 200, maxHeight: 200) {
           originalName
           ...GatsbyImageSharpFluid
         }

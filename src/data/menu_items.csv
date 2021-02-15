@@ -1,187 +1,152 @@
 code,english,chinese,price
-a01,Bar-B-Q Pork,叉燒,
-a02,Deep Fried Wonton,炸雲吞,
-a03,Deep Fried Drumsticks,酥炸棒棒雞腿,
-a04,Chef’s Special Deep Fried Chicken Wings,秘製炸雞翼,
-a05,Lettuce Wrap with Minced Beef,牛肉生菜包,
-a08,Lettuce Wrap with Minced Chicken,雞肉生菜包,
-a09,Lettuce Wrap with Minced Duck,鴨肉生菜包,
-a06,Spring Roll,春卷,
-a07,Pot Stickers 10 pcs,鍋貼,
-a10,Chinese Sausage,臘腸,
-b01,Wonton Soup,雲吞湯,
-b02,Wor Wonton (15 pieces),窩雲吞,
-b03,Beef and Lettuce with Egg Swirl Soup,西湖牛肉湯,
-b04,Corn Soup,粟米湯,
-b05,Hot n Sour Soup,酸辣湯,
-b06,Mushroom and Egg Swirl Soup,蘑菇蛋花湯,
-b07,Beef and Tomato Swirl Soup,牛肉蕃茄湯,
-b08,Wonton Soup Noodle,雲吞麵,
-b09,Beef Ball Soup Noodle,牛丸湯麵,
-b10,Fish Ball Soup Noodle,魚旦湯麵,
-b11,Pea And Egg Swirl Soup,丕豆蛋花湯,
-b12,Seafood and Bean Cake Soup,海鮮豆腐湯,
-b13,Hot Chili Tomato Soup,蕃茄酸辣湯,
-c01,Cashew Chicken,腰果雞丁,
-c02,Kung Pao Chicken,宮保雞丁,
-c03,Black Bean Chicken,豆豉雞丁,
-c04,Lemon Chicken,檸檬酥雞,
-c05,Sweet and Sour Chicken Balls with Pineapple,甜酸雞球,
-c06,Pan Fried Chicken Slice with Curry Sauce,咖喱雞片,
-c07,Fried Chicken with Garlic Salt and Chili Pepper,椒鹽酥雞,
-c08,Diced Chicken with Almond,杏仁雞丁,
-c09,Breaded Almond Chicken,杏仁酥雞,
-c10,Breaded Chicken with Pineapples,菠蘿酥雞,
-c11,Pan Fired Chicken with Snow Peas,雪豆雞片,
-c12,Pan Fried Chicken with Three Kinds of Mushroom,雪豆雞片,
-c13,Chicken Hot Pot,雞肉煲,
-j11,BBQ Pork Chop Suey,叉燒雜碎,
-j12,Beef Chop Suey,牛肉雜碎,
-j13,Chicken Chop Suey,雞肉雜碎,
-j14,Seafood Chop Suey,海鮮雜碎,
-j15,House Special Chop Suey,招牌雜碎,
-j17,Mushroom Chop Suey,蘑菇雜碎,
-j18,Plain Chop Suey,淨雜雜碎,
-j19,Prawn Chop Suey,蝦仁雜碎,
-k06,Chicken Chow Mein,雞絲炒麵,
-k07,Beef Chow Mein,牛肉炒麵,
-k08,Seafood Chow Mein,海鮮炒麵,
-k09,This and That Chow Mein,招牌炒麵,
-k10,Vegetable Chow Mein,時菜炒麵,
-k11,Prawns Chow Mein,蝦仁炒麵,
-k18,bbq park Chow Mein,叉燒炒麵,
-k26,Plain Chow Mein,淨炒麵,
-k30,Three kinds of Mushrooms Chow Mein,三菇炒麵,
-k31,Button Style Mushroom Chow Mein,蘑菇炒麵,
-d01,BBQ Duck,片皮鴨,
-e01,Beef with Broccoli,百加利牛肉,
-e02,Ginger Beef (Hot),香辣牛肉絲,
-e03,Black Bean Beef with Green Beans,豉汁牛肉豆仔,
-e04,Sliced Beef in Curry Sauce,咖喱牛肉,
-e05,Sliced Beef with Snow Peas,雪豆牛肉,
-e06,Szechun Beef,四川牛肉,
-e07,Sliced Beef in Black Bean Sauce,豉汁牛肉,
-e08,Sliced Beef in Satay Sauce,沙爹牛肉,
-e09,Sliced Beef with Three Kinds of Mushrooms,三菇牛肉,
-e10,Sliced Beef with Tomatoes,蕃茄牛肉,
-e11,Sliced Beef Hot Pot,牛肉煲,
-j01,Pork Egg Foo Young,叉燒芙蓉蛋,
-j02,Mushrooms Egg Foo Young,蘑菇芙蓉蛋,
-j03,Prawns Egg Foo Young,蝦芙蓉蛋,
-f02,BBQ Pork with Tofu and Oyster Sauce,叉燒豆腐,
-f03,Sweet n Sour Pork,甜酸咕嚕肉,
-f04,Deep Fried Garlic Pork,蒜子肉,
-f05,Boneless Pork with Honey and Garlic Sauce,蒜子蜜糖豬肉,
-f06,Bean Cake with Spicy Meat Sauce,麻婆豆腐,
-k01,Chicken Fried Rice,雞肉炒飯,
-k02,Prawns Fried Rice,蝦仁炒飯,
-k03,Vegetable Fried Rice,時菜炒飯,
-k04,Beef Fried Rice,牛肉炒飯,
-k05,House Young Chow Fried Rice,招牌揚州炒飯,
-k17,BBQ pork Fried Rice,叉燒炒飯,
-k29,Plain Egg Fried Rice,淨蛋炒飯,
-h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,甜酸魚球,
-h02,Sliced Fish with Mixed Greens,時菜魚片,
-h03,Fried Fish with Garlic Salt and Chili Pepper,椒鹽魚柳,
-h04,Fish Slices with Three Kinds of Mushrooms,三菇魚片,
-h05,Prawns and Broccoli with Black Bean Sauce,豉汁蝦球百加利,
-h06,Kung Pao Prawns,宮保蝦丁,
-h07,Sweet and Sour Breaded Deep Fried Prawns,甜酸蝦球,
-h08,Deep Fried Prawns,炸蝦球,
-h09,Prawns in Curry Sauce,咖喱蝦球,
-h10,Prawns with Garlic Salt n Chili Pepper,椒鹽蝦球,
-h11,Prawns with Snow Peas,蝦球雪豆,
-h12,Prawns with Mixed Greens,時菜蝦球,
-h13,Prawns with Three Kinds of Mushrooms,三菇蝦球,
-h14,Fried Squid with Garlic Salt and Chili Pepper,椒鹽鮮魷,
-h15,Squid in Black Bean Sauce,豉汁鮮魷,
-h16,Fish Balls in Curry Sauce,咖喱魚旦,
-j04,Braised Tofu,紅燒豆腐,
-j05,Deep Fried Tofu,椒鹽豆腐,
-j06,Eggplant with Hot Meat Sauce,魚香茄子,
-j07,Deluxe Veggie,招牌時菜,
-j08,Spicy Green Beans,辣豆仔,
-j09,Garlic Fried Broccoli,蒜炒百加利,
-j10,Chinese Mushroon & Broccoli with Black Bean Sauce,冬菇扒百加利,
-j16,Szechun Dry Fried Green Beans,乾煸四季豆,
-j20,Buddha's Delight,羅漢齋,
-k12,Singapore Style Chow Fun (Rice Vermicelli) with Curry,星洲炒米粉,
-k13,House Chow Fun (Rice Vermicelli),招牌炒米粉,
-k14,Beef and Tomato Fried Rice,蕃茄牛肉炒飯,
-k15,Beef N Tomato Chow Mein,蕃茄牛肉炒麵,
-k16,Shanghai Style Noodles with Pork,上海炒麵,
-k19,Noodles With Spicy Minced Meat Sauce,炸醬麵,
-k27,Steam Rice,白飯,
-k32,Beef Chow Fun (Thick Rice Noodle),干炒牛河,
-k33,Half & Half Fried Rice,鴛鴦炒飯,
-l01,Breaded Deep Fried Banana,炸香蕉,
-l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,酥炸甜酸荔枝,
-k20,Chicken Lo Mein,雞肉撈麵,
-k21,Beef Lo Mein,牛肉撈麵,
-k22,Seafood Lo Mein,海鮮撈麵,
-k23,House Lo Mein,招牌撈麵,
-k24,Prawns Lo Mein,蝦球撈麵,
-k25,BBQ Pork Lo Mein,叉燒撈麵,
-m01,3 Cups Tofu,三杯豆腐,
-m03,3 Cups Chicken,三杯雞丁,
-m11,Scramble Eggs With Prawns,滑蛋蝦仁,
-m12,Taiwan Style Deep Fried Prawns with Pineapples,鳳梨蝦球,
-m14,Wrinkly Old Man Tofu,老皮嫩肉,
-m15,TW Beautiful Veggie with Beef,牛肉高麗菜,
-m17,Kung Pao TW Beautiful Veggie,宮保高麗菜,
-m18,Garlic Fried TW Beautiful Veggie,蒜炒高麗菜,
-m20,Kung Pao Eggplants ,宮保茄子,
-m21,Braised Eggplants,紅燒茄子,
-m23,Green Beans 'n Eggs with Minced Pork,四季豆炒蛋,
+header,APPETIZERS,開胃小點,
+a01,Bar-B-Q Pork,叉燒,995
+a02,Deep Fried Wonton,炸雲吞,850
+a03,Deep Fried Drumsticks,酥炸棒棒雞腿,995
+a04,Chef’s Special Deep Fried Chicken Wings,秘製炸雞翼,995
+a05,Lettuce Wrap with Minced Beef,牛肉生菜包,1795
+a08,Lettuce Wrap with Minced Chicken,雞肉生菜包,1795
+a09,Lettuce Wrap with Minced Duck,鴨肉生菜包,1795
+a06,Spring Roll,春卷,250
+a07,Pot Stickers 10 pcs,鍋貼,1050
+a10,Chinese Sausage,臘腸,995
+header,SOUPS。SOUP NOODLE,湯品。湯麵,
+b01,Wonton Soup,雲吞湯,850
+b02,Wor Wonton (15 pieces),窩雲吞,1650
+b03,Beef and Lettuce with Egg Swirl Soup,西湖牛肉湯,1050
+b04,Corn Soup,粟米湯,1050
+b05,Hot n Sour Soup,酸辣湯,1050
+b06,Mushroom and Egg Swirl Soup,蘑菇蛋花湯,950
+b07,Beef and Tomato Swirl Soup,牛肉蕃茄湯,1050
+b08,Wonton Soup Noodle,雲吞麵,950
+b09,Beef Ball Soup Noodle,牛丸湯麵,950
+b10,Fish Ball Soup Noodle,魚旦湯麵,950
+b11,Pea And Egg Swirl Soup,丕豆蛋花湯,950
+b12,Seafood and Bean Cake Soup,海鮮豆腐湯,1200
+b13,Hot Chili Tomato Soup,蕃茄酸辣湯,1050
+header,CHICKEN,雞肉,
+c01,Cashew Chicken,腰果雞丁,1495
+c02,Kung Pao Chicken,宮保雞丁,1495
+c03,Black Bean Chicken,豆豉雞丁,1495
+c04,Lemon Chicken,檸檬酥雞,1595
+c05,Sweet and Sour Chicken Balls with Pineapple,甜酸雞球,1595
+c06,Pan Fried Chicken Slice with Curry Sauce,咖喱雞片,1495
+c07,Fried Chicken with Garlic Salt and Chili Pepper,椒鹽酥雞,1495
+c08,Diced Chicken with Almond,杏仁雞丁,1495
+c09,Breaded Almond Chicken,杏仁酥雞,1595
+c10,Breaded Chicken with Pineapples,菠蘿酥雞,1595
+c11,Pan Fired Chicken with Snow Peas,雪豆雞片,1695
+c12,Pan Fried Chicken with Three Kinds of Mushroom,雪豆雞片,1495
+c13,Chicken Hot Pot,雞肉煲,1695
+d01,BBQ Duck Whole Duck,片皮鴨,3600
+d02,BBQ Duck Half Duck,片皮鴨,2000
+header,BEEF,牛肉,
+e01,Beef with Broccoli,百加利牛肉,1495
+e02,Ginger Beef (Hot),香辣牛肉絲,1795
+e03,Black Bean Beef with Green Beans,豉汁牛肉豆仔,1495
+e04,Sliced Beef in Curry Sauce,咖喱牛肉,1595
+e05,Sliced Beef with Snow Peas,雪豆牛肉,1695
+e06,Szechun Beef,四川牛肉,1695
+e07,Sliced Beef in Black Bean Sauce,豉汁牛肉,1595
+e08,Sliced Beef in Satay Sauce,沙爹牛肉,1595
+e09,Sliced Beef with Three Kinds of Mushrooms,三菇牛肉,1695
+e10,Sliced Beef with Tomatoes,蕃茄牛肉,1695
+e11,Sliced Beef Hot Pot,牛肉煲,1795
+header,PORK,豬肉,
+f02,BBQ Pork with Tofu and Oyster Sauce,叉燒豆腐,1595
+f03,Sweet n Sour Pork,甜酸咕嚕肉,1595
+f04,Deep Fried Garlic Pork,蒜子肉,1595
+f05,Boneless Pork with Honey and Garlic Sauce,蒜子蜜糖豬肉,1595
+f06,Bean Cake with Spicy Meat Sauce,麻婆豆腐,1495
+header,SEAFOOD,海鮮,
+h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,甜酸魚球,1595
+h02,Sliced Fish with Mixed Greens,時菜魚片,1595
+h03,Fried Fish with Garlic Salt and Chili Pepper,椒鹽魚柳,1695
+h04,Fish Slices with Three Kinds of Mushrooms,三菇魚片,1595
+h05,Prawns and Broccoli with Black Bean Sauce,豉汁蝦球百加利,1950
+h06,Kung Pao Prawns,宮保蝦丁,1950
+h07,Sweet and Sour Breaded Deep Fried Prawns,甜酸蝦球,1950
+h08,Deep Fried Prawns,炸蝦球,1850
+h09,Prawns in Curry Sauce,咖喱蝦球,1950
+h10,Prawns with Garlic Salt n Chili Pepper,椒鹽蝦球,1950
+h11,Prawns with Snow Peas,蝦球雪豆,1950
+h12,Prawns with Mixed Greens,時菜蝦球,1950
+h13,Prawns with Three Kinds of Mushrooms,三菇蝦球,1950
+h14,Fried Squid with Garlic Salt and Chili Pepper,椒鹽鮮魷,1950
+h15,Squid in Black Bean Sauce,豉汁鮮魷,1750
+h16,Fish Balls in Curry Sauce,咖喱魚旦,1495
+header,TOFU 。 EGGS。VEGETABLES,豆腐。蛋。蔬菜,
+j01,Pork Egg Foo Young,叉燒芙蓉蛋,1350
+j02,Mushrooms Egg Foo Young,蘑菇芙蓉蛋,1350
+j03,Prawns Egg Foo Young,蝦芙蓉蛋,1450
+j04,Braised Tofu,紅燒豆腐,1395
+j05,Garlic Salt & Chilli Pepper Deep Fried Tofu,椒鹽豆腐,1395
+j06,Eggplant with Hot Meat Sauce,魚香茄子,1395
+j07,Deluxe Veggie,招牌時菜,1395
+j08,Spicy Green Beans,辣豆仔,1395
+j09,Garlic Fried Broccoli,蒜炒百加利,1395
+j10,Chinese Mushroon & Broccoli with Black Bean Sauce,冬菇扒百加利,1495
+j11,BBQ Pork Chop Suey,叉燒雜碎,1395
+j12,Beef Chop Suey,牛肉雜碎,1395
+j13,Chicken Chop Suey,雞肉雜碎,1395
+j14,Seafood Chop Suey,海鮮雜碎,1595
+j15,House Special Chop Suey,招牌雜碎,1595
+j16,Szechun Dry Fried Green Beans,乾煸四季豆,1495
+j17,Mushroom Chop Suey,蘑菇雜碎,1295
+j18,Plain Chop Suey,淨雜雜碎,1295
+j19,Prawn Chop Suey,蝦仁雜碎,1595
+j20,Buddha's Delight,羅漢齋,1795
+header,CHOW MEIN 。 FRIED RICE,飯。麵,
+k01,Chicken Fried Rice,雞肉炒飯,1295
+k02,Prawns Fried Rice,蝦仁炒飯,1395
+k03,Vegetable Fried Rice,時菜炒飯,1295
+k04,Beef Fried Rice,牛肉炒飯,1495
+k05,House Young Chow Fried Rice,招牌揚州炒飯,1495
+k06,Chicken Chow Mein,雞絲炒麵,1295
+k07,Beef Chow Mein,牛肉炒麵,1495
+k08,Seafood Chow Mein,海鮮炒麵,1495
+k09,This and That Chow Mein,招牌炒麵,1495
+k10,Vegetable Chow Mein,時菜炒麵,1295
+k11,Prawns Chow Mein,蝦仁炒麵,1495
+k12,Singapore Style Chow Fun (Rice Vermicelli) with Curry,星洲炒米粉,1395
+k13,House Chow Fun (Rice Vermicelli),招牌炒米粉,1495
+k14,Beef and Tomato Fried Rice,蕃茄牛肉炒飯,1495
+k15,Beef N Tomato Chow Mein,蕃茄牛肉炒麵,1495
+k16,Shanghai Style Noodles with Pork,上海炒麵,1395
+k17,BBQ Pork Fried Rice,叉燒炒飯,1295
+k18,BBQ Pork Chow Mein,叉燒炒麵,1295
+k19,Noodles With Spicy Minced Meat Sauce,炸醬麵,1295
+k20,Chicken Lo Mein,雞肉撈麵,1295
+k21,Beef Lo Mein,牛肉撈麵,1495
+k22,Seafood Lo Mein,海鮮撈麵,1495
+k23,House Lo Mein,招牌撈麵,1495
+k24,Prawns Lo Mein,蝦球撈麵,1495
+k25,BBQ Pork Lo Mein,叉燒撈麵,1295
+k26,Plain Chow Mein,淨炒麵,1195
+k27,Steam Rice,白飯,295
+k29,Plain Egg Fried Rice,淨蛋炒飯,1195
+k30,Three kinds of Mushrooms Chow Mein,三菇炒麵,1295
+k31,Button Style Mushroom Chow Mein,蘑菇炒麵,1295
+k32,Beef Chow Fun (Thick Rice Noodle),干炒牛河,1495
+k33,Half & Half Fried Rice,鴛鴦炒飯,1695
+l01,Breaded Deep Fried Banana,炸香蕉,995
+l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,酥炸甜酸荔枝,995
+header,NEW DISHES FROM DRUNKEN MONKEY,醉悟空新菜推薦,
+m01,3 Cups Tofu,三杯豆腐,1050
+m03,3 Cups Chicken,三杯雞丁,1450
+m11,Scramble Eggs With Prawns,滑蛋蝦仁,1695
+m12,Taiwan Style Deep Fried Prawns with Pineapples,鳳梨蝦球,1395
+m14,Wrinkly Old Man Tofu,老皮嫩肉,995
+m15,TW Beautiful Veggie with Beef,牛肉高麗菜,1595
+m17,Kung Pao TW Beautiful Veggie,宮保高麗菜,1495
+m18,Garlic Fried TW Beautiful Veggie,蒜炒高麗菜,1395
+m20,Kung Pao Eggplants ,宮保茄子,1395
+m21,Braised Eggplants,紅燒茄子,1395
+m23,Green Beans 'n Eggs with Minced Pork,四季豆炒蛋,1495
 p01,Steamed Glutinous Rice with Chicken,糯米雞,
 p02,Steamed Glutinous Rice with Duck,糯米鴨,
-s01,Coke,,
-s02,7up,,
-s03,Ginger Ale,,
-s04,Diet Coke Can,,
-s05,Orange Juice,,
-s06,Shirley Temple,,
-s07,Bottled Water,,
-s08,Hot Jasmine Tea,,
-s09,Gatorade,,
-t01,Heineken,,
-t02,Holsten,,
-t03,Tsingtao,,
-t04,Stella,,
-t05,Sleeman,,
-t06,Corona,,
-t07,Canadian,,
-t08,Pale Ale,,
-t11,Cork Fee,,
-t12,Kokanee,,
-t13,Budweiser,,
-t14,Coors Light,,
-t15,Mouton Cadet red,,
-t16,Mouton Cadet white,,
-t17,Two Oceans,,
-t18,Black Tower Riesling,,
-t19,Frontera,,
-t20,Sumac Ridge Gewurztraminer,,
-t22,Martini,,
-t23,Tequilla Sunrise,,
-t24,Rum Coke,,
-t25,Margarita,,
-t26,Caesar,,
-t27,Gin & Tonic,,
-t28,Long Island,,
-t29,House Red – Donini Merlot,,
-t30,House White - Donini Chardonnay,,
-t31,Palo Alto,,
-u01,Black Tea,,
-u02,Milk Tea,,
-u03,Bubble Black Tea,,
-u04,Bubble Milk Tea,,
-u05,Mango Milk Tea,,
-u06,Bubble Mango Milk Tea,,
-u07,Honeydew Milk Tea,,
-u08,Bubble Honeydew Milk Tea,,
-u09,Passion Fruit Tea,,
 u10,Bubble Passionfruit Tea,,
+header,FROZEN FOODS,冷凍,
 w01,Frozen Hot and Sour Soup,酸辣湯 (冷凍),
 w02,Frozen Chicken Chow Mein,雞絲炒麵 (冷凍),
 w03,Frozen House Fried Rice,揚州炒飯 (冷凍),
