@@ -1,8 +1,13 @@
 import React from "react"
+<<<<<<< HEAD
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navbar from "./Navbar/Navbar"
 import Img from "gatsby-image"
 import styled from "styled-components"
+=======
+import { Link } from "gatsby"
+import "@fontsource/noto-sans-tc"
+>>>>>>> feat/menu
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
