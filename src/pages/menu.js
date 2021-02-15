@@ -14,6 +14,7 @@ const LinkContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -51,6 +52,12 @@ const LinkButton = styled.div`
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    width: 80vw;
+    margin: 1rem 0 1rem 0;
   }
 `
 
