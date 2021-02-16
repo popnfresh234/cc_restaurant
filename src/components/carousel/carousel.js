@@ -1,11 +1,13 @@
 import React from "react"
+import Img from "gatsby-image"
+
 
 const Carousel = ({ posts }) => {
-    console.log(posts[posts.length-1].excerpt)
+  console.log(posts[0])
   return (
     <>
       <p>Hello</p>
-      {posts.length}
+      <Img fluid={posts[0].frontmatter.featuredImage.childImageSharp.fluid}></Img>
     </>
   )
 }
