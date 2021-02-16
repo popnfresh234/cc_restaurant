@@ -1,5 +1,5 @@
 code,english,chinese,price
-header,APPETIZERS,開胃小點,
+a00,APPETIZERS,開胃小點,
 a01,Bar-B-Q Pork,叉燒,995
 a02,Deep Fried Wonton,炸雲吞,850
 a03,Deep Fried Drumsticks,酥炸棒棒雞腿,995
@@ -10,7 +10,7 @@ a09,Lettuce Wrap with Minced Duck,鴨肉生菜包,1795
 a06,Spring Roll,春卷,250
 a07,Pot Stickers 10 pcs,鍋貼,1050
 a10,Chinese Sausage,臘腸,995
-header,SOUPS。SOUP NOODLE,湯品。湯麵,
+b00,SOUPS。SOUP NOODLE,湯品。湯麵,
 b01,Wonton Soup,雲吞湯,850
 b02,Wor Wonton (15 pieces),窩雲吞,1650
 b03,Beef and Lettuce with Egg Swirl Soup,西湖牛肉湯,1050
@@ -24,7 +24,7 @@ b10,Fish Ball Soup Noodle,魚旦湯麵,950
 b11,Pea And Egg Swirl Soup,丕豆蛋花湯,950
 b12,Seafood and Bean Cake Soup,海鮮豆腐湯,1200
 b13,Hot Chili Tomato Soup,蕃茄酸辣湯,1050
-header,CHICKEN,雞肉,
+c00,CHICKEN,雞肉,
 c01,Cashew Chicken,腰果雞丁,1495
 c02,Kung Pao Chicken,宮保雞丁,1495
 c03,Black Bean Chicken,豆豉雞丁,1495
@@ -38,9 +38,10 @@ c10,Breaded Chicken with Pineapples,菠蘿酥雞,1595
 c11,Pan Fired Chicken with Snow Peas,雪豆雞片,1695
 c12,Pan Fried Chicken with Three Kinds of Mushroom,雪豆雞片,1495
 c13,Chicken Hot Pot,雞肉煲,1695
+d00,DUCK,鴨肉,
 d01,BBQ Duck Whole Duck,片皮鴨,3600
 d02,BBQ Duck Half Duck,片皮鴨,2000
-header,BEEF,牛肉,
+e00,BEEF,牛肉,
 e01,Beef with Broccoli,百加利牛肉,1495
 e02,Ginger Beef (Hot),香辣牛肉絲,1795
 e03,Black Bean Beef with Green Beans,豉汁牛肉豆仔,1495
@@ -52,13 +53,13 @@ e08,Sliced Beef in Satay Sauce,沙爹牛肉,1595
 e09,Sliced Beef with Three Kinds of Mushrooms,三菇牛肉,1695
 e10,Sliced Beef with Tomatoes,蕃茄牛肉,1695
 e11,Sliced Beef Hot Pot,牛肉煲,1795
-header,PORK,豬肉,
+f00,PORK,豬肉,
 f02,BBQ Pork with Tofu and Oyster Sauce,叉燒豆腐,1595
 f03,Sweet n Sour Pork,甜酸咕嚕肉,1595
 f04,Deep Fried Garlic Pork,蒜子肉,1595
 f05,Boneless Pork with Honey and Garlic Sauce,蒜子蜜糖豬肉,1595
 f06,Bean Cake with Spicy Meat Sauce,麻婆豆腐,1495
-header,SEAFOOD,海鮮,
+h00,SEAFOOD,海鮮,
 h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,甜酸魚球,1595
 h02,Sliced Fish with Mixed Greens,時菜魚片,1595
 h03,Fried Fish with Garlic Salt and Chili Pepper,椒鹽魚柳,1695
@@ -75,7 +76,7 @@ h13,Prawns with Three Kinds of Mushrooms,三菇蝦球,1950
 h14,Fried Squid with Garlic Salt and Chili Pepper,椒鹽鮮魷,1950
 h15,Squid in Black Bean Sauce,豉汁鮮魷,1750
 h16,Fish Balls in Curry Sauce,咖喱魚旦,1495
-header,TOFU 。 EGGS。VEGETABLES,豆腐。蛋。蔬菜,
+j00,TOFU 。 EGGS。VEGETABLES,豆腐。蛋。蔬菜,
 j01,Pork Egg Foo Young,叉燒芙蓉蛋,1350
 j02,Mushrooms Egg Foo Young,蘑菇芙蓉蛋,1350
 j03,Prawns Egg Foo Young,蝦芙蓉蛋,1450
@@ -96,7 +97,7 @@ j17,Mushroom Chop Suey,蘑菇雜碎,1295
 j18,Plain Chop Suey,淨雜雜碎,1295
 j19,Prawn Chop Suey,蝦仁雜碎,1595
 j20,Buddha's Delight,羅漢齋,1795
-header,CHOW MEIN 。 FRIED RICE,飯。麵,
+k00,CHOW MEIN 。 FRIED RICE,飯。麵,
 k01,Chicken Fried Rice,雞肉炒飯,1295
 k02,Prawns Fried Rice,蝦仁炒飯,1395
 k03,Vegetable Fried Rice,時菜炒飯,1295
@@ -129,9 +130,10 @@ k30,Three kinds of Mushrooms Chow Mein,三菇炒麵,1295
 k31,Button Style Mushroom Chow Mein,蘑菇炒麵,1295
 k32,Beef Chow Fun (Thick Rice Noodle),干炒牛河,1495
 k33,Half & Half Fried Rice,鴛鴦炒飯,1695
+l00,DESSERT,甜品,
 l01,Breaded Deep Fried Banana,炸香蕉,995
 l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,酥炸甜酸荔枝,995
-header,NEW DISHES FROM DRUNKEN MONKEY,醉悟空新菜推薦,
+m00,NEW DISHES FROM DRUNKEN MONKEY,醉悟空新菜推薦,
 m01,3 Cups Tofu,三杯豆腐,1050
 m03,3 Cups Chicken,三杯雞丁,1450
 m11,Scramble Eggs With Prawns,滑蛋蝦仁,1695
@@ -143,10 +145,7 @@ m18,Garlic Fried TW Beautiful Veggie,蒜炒高麗菜,1395
 m20,Kung Pao Eggplants ,宮保茄子,1395
 m21,Braised Eggplants,紅燒茄子,1395
 m23,Green Beans 'n Eggs with Minced Pork,四季豆炒蛋,1495
-p01,Steamed Glutinous Rice with Chicken,糯米雞,
-p02,Steamed Glutinous Rice with Duck,糯米鴨,
-u10,Bubble Passionfruit Tea,,
-header,FROZEN FOODS,冷凍,
+w00,FROZEN FOODS,冷凍,
 w01,Frozen Hot and Sour Soup,酸辣湯 (冷凍),
 w02,Frozen Chicken Chow Mein,雞絲炒麵 (冷凍),
 w03,Frozen House Fried Rice,揚州炒飯 (冷凍),

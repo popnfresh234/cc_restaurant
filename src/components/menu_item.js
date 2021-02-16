@@ -8,6 +8,7 @@ const MenuImage = styled(Img)`
   border-radius: 50%;
   margin: 0 1rem 0 0;
   flex: 1;
+  z-index: -1;
 `
 
 const MenuText = styled.div`
@@ -73,9 +74,10 @@ const formatPrice = (price) => {
 }
 
 const MenuItem = ({ fluid, code, english, chinese, price }) => {
-  if (code === "header") {
+  const lastTwo = code.slice(code.length-2, code.length)
+  if (lastTwo === "00") {
     return (
-      <CategoryDiv>
+      <CategoryDiv id={code}>
         <CategoryText>{chinese}</CategoryText>
         <CategoryText>{english}</CategoryText>
       </CategoryDiv>
