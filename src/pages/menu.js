@@ -3,6 +3,7 @@ import MenuItem from "../components/menu_item"
 import Layout from "../components/layout"
 import styled from "styled-components"
 import { graphql } from "gatsby"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const NoStyleOl = styled.ol`
   list-style-type: none;
@@ -59,6 +60,62 @@ const LinkButton = styled.div`
     width: 80vw;
     margin: 1rem 0 1rem 0;
   }
+`
+
+const MenuNavContainer = styled.div`
+  position: sticky;
+  top: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0 1rem calc(var(--maxWidth-2xl) / -2);
+  padding: 1rem;
+  flex-direction: column;
+  background-color: #ffffff;
+  @media (max-width: 768px) {
+    margin: 0;
+    top: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+`
+
+const MenuNavButton = styled.div`
+  font-style: normal;
+  font-weight: 100;
+  font-family: Noto Sans TC;
+  line-height: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #472b2b;
+  min-width: 10vw;
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border: 1px solid #472b2b;
+  flex-shrink: 0;
+  cursor: pointer;
+`
+
+const MenuNavWrapper = styled.div`
+    display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction:column;
+  }
+`
+
+const MenuSpacer = styled.div`
+  height: 8rem;
+
+  @media (max-width: 768px) {
+    height: 0rem;
+  }
+`
+
+const StickyDiv = styled.div`
+  position: sticky;
+  top: 8vh;
 `
 
 const Menu = ({ data, location }) => {
@@ -123,7 +180,25 @@ const Menu = ({ data, location }) => {
           <LinkButton>Delivery With Uber Eats</LinkButton>
         </a>
       </LinkContainer>
-      <NoStyleOl>{menuItems}</NoStyleOl>
+
+      <MenuNavWrapper>
+        <StickyDiv>
+          <MenuSpacer/>
+          <MenuNavContainer>
+            <MenuNavButton onClick={() => scrollTo('#a00')}>Appetizers</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#b00')}>SOUPS。SOUP NOODLE</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#c00')}>Chicken</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#e00')}>Beef</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#f00')}>Pork</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#h00')}>Seafood</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#j00')}>TOFU 。 EGGS。VEGETABLES</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#k00')}>CHOW MEIN 。 FRIED RICE</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#m00')}>DRUNKEN MONKEY</MenuNavButton>
+            <MenuNavButton onClick={() => scrollTo('#w00')}>Frozen Foods</MenuNavButton>
+          </MenuNavContainer>
+        </StickyDiv>
+        <NoStyleOl>{menuItems}</NoStyleOl>
+      </MenuNavWrapper>
     </Layout>
   )
 }

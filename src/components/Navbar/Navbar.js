@@ -6,10 +6,11 @@ import NavbarLinks from "./NavbarLinks"
 import Logo from "./Logo"
 
 const Navigation = styled.nav`
-  height: 10vh;
+  height: 8vh;
   display: flex;
   background-color: #fff;
-  position: relative;
+  position: sticky;
+  top: 0;
   justify-content: center;
   text-transform: uppercase;
   border-bottom: 2px solid #33333320;
