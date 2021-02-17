@@ -1,16 +1,14 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-import Navbar from "./Navbar/Navbar"
 import Img from "gatsby-image"
 import styled from "styled-components"
 import "@fontsource/noto-sans-tc"
 
+const LogoWrap = styled.div``
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-  const LogoWrap = styled.div`
-   
-  `
+
   const isRootPath = location.pathname === rootPath
   let header
 
@@ -42,7 +40,6 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <>
-      <Navbar />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <header className="global-header">
           <>
