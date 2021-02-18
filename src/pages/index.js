@@ -1,15 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import Navbar from "../components/Navbar/Navbar"
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Carousel from "../components/Carousel/carousel"
-import Img from "gatsby-image"
-import styled from "styled-components"
 import Logo from "../components/Logo/logo"
-
-
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
@@ -19,7 +15,6 @@ const BlogIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -28,50 +23,38 @@ const BlogIndex = ({ data, location }) => {
       </Layout>
     )
   }
+  console.log(data)
 
   return (
     <>
-      <Logo/>
+      <Logo />
       <Navbar />
       <Carousel posts={posts}></Carousel>
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
-        <Link to="/home">
-          <span>Go to this testaroo</span>
-        </Link>
-        <ol style={{ listStyle: `none` }}>
-          {posts.map(post => {
-            const title = post.frontmatter.title || post.fields.slug
-
-            return (
-              <li key={post.fields.slug}>
-                <article
-                  className="post-list-item"
-                  itemScope
-                  itemType="http://schema.org/Article"
-                >
-                  <header>
-                    <h2>
-                      <Link to={post.fields.slug} itemProp="url">
-                        <span itemProp="headline">{title}</span>
-                      </Link>
-                    </h2>
-                    <small>{post.frontmatter.date}</small>
-                  </header>
-                  <section>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.description || post.excerpt,
-                      }}
-                      itemProp="description"
-                    />
-                  </section>
-                </article>
-              </li>
-            )
-          })}
-        </ol>
+        <h4>Capilano Heights is back with a new brand image!</h4>
+        <Img fluid={data.file.childImageSharp.fluid} />
+        <p>
+          Long time serving the North Vancouver community, we are back with a
+          new brand image.
+        </p>
+        <p>CC's CHINESE RESTAURANT presented by Drunken Monkey</p>
+        <p>
+          In loving memory of C.C. Sun, we rename Capilano Heights with his
+          name. And this time, we are going to bring some new flavour with
+          Drunken Monkey, a restaurant CC's grandson, Alex, opened in Taipei,
+          Taiwan. Besides bringing some Taiwanese style dishes in the
+          restaurant, Drunken Monkey cooking class is also on its way to open!
+        </p>
+        <p>
+          C.C. Sun, started Capilano Heights in 1972 and is very proud to have
+          served many, many happy customers. We offer a wide-ranging menu
+          together with a complete liquor, wine and beer selection at very
+          reasonable prices. Our atmosphere is warm and casual, including an all
+          glass atrium where customers can enjoy the garden view all year round.
+          Please come and join us for a wonderful dining experience for all your
+          friends and family. See you soon!
+        </p>
       </Layout>
     </>
   )
@@ -86,7 +69,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    file(name: { eq: "logo" }, extension: { eq: "png" }) {
+    file(name: { eq: "ccs_restaurant_hero" }, extension: { eq: "jpg" }) {
       childImageSharp {
         fluid(maxWidth: 800, pngQuality: 80) {
           ...GatsbyImageSharpFluid

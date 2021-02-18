@@ -26,8 +26,20 @@ const ContentContainer = styled.div`
   transition: 0.4 all ease;
 `
 
+const BorderDiv = styled.div`
+  display: flex;
+  padding: 1rem;
+  min-width: 30%;
+  max-width: 30%;
+  max-height: 50%;
+  border: 1px solid white;
+`
+
 const InnerContent = styled.div`
-  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 5rem;
   background-color: #ffffff;
 `
@@ -40,8 +52,10 @@ const PostCarousel = ({ posts }) => {
       infiniteLoop
       centerMode={!isTabletOrMobile}
       centerSlidePercentage={80}
+      showThumbs={false}
     >
       {posts.map(post => {
+        console.log(post)
         const title = post.frontmatter.title || post.fields.slug
         return (
           <Link to={post.fields.slug} itemProp="url">
@@ -50,15 +64,19 @@ const PostCarousel = ({ posts }) => {
             />
             {!isTabletOrMobile && (
               <ContentContainer>
-                <InnerContent>
-                  <h2><span itemProp="headline">{title}</span></h2>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </InnerContent>
+                <BorderDiv>
+                  <InnerContent>
+                    <h2>
+                      <span itemProp="headline">{title}</span>
+                    </h2>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.date,
+                      }}
+                      itemProp="date"
+                    />
+                  </InnerContent>
+                </BorderDiv>
               </ContentContainer>
             )}
           </Link>

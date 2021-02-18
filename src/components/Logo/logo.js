@@ -18,7 +18,7 @@ const LogoImage = styled(Img)`
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(name: { eq: "gatsby-icon" }, extension: { eq: "png" }) {
+      file(name: { eq: "logo" }, extension: { eq: "png" }) {
         childImageSharp {
           fluid(maxWidth: 800, pngQuality: 80) {
             ...GatsbyImageSharpFluid
