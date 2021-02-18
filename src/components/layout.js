@@ -1,10 +1,6 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import styled from "styled-components"
+import { Link } from "gatsby"
 import "@fontsource/noto-sans-tc"
-
-const LogoWrap = styled.div``
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -26,28 +22,11 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
-  const data = useStaticQuery(graphql`
-    query {
-      file(name: { eq: "logo" }, extension: { eq: "png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000, pngQuality: 80) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <header className="global-header">
-          <>
-            <LogoWrap as={Link} to="/">
-              <Img fluid={data.file.childImageSharp.fluid} alt="logo" />
-            </LogoWrap>
-            {header}
-          </>
+          <>{header}</>
         </header>
         <main>{children}</main>
         <footer>

@@ -3,7 +3,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
-import Logo from "./Logo"
 
 const Navigation = styled.nav`
   height: 8vh;
@@ -19,7 +18,7 @@ const Navigation = styled.nav`
   z-index: 3;
   align-self: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     justify-content: flex-end;
     position: sticky;
     height: 8vh;
@@ -36,7 +35,7 @@ const Toggle = styled.div`
   cursor: pointer;
   padding: 0 5vw;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     display: flex;
   }
 `
@@ -47,7 +46,7 @@ const Navbox = styled.div`
   justify-content: flex-end;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     flex-direction: column;
     position: fixed;
     width: 100%;

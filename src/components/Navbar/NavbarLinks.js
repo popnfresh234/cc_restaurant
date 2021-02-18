@@ -31,7 +31,7 @@ const NavItem = styled(Link)`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     padding: 20px 0;
     font-size: 1.5rem;
     z-index: 6;
@@ -67,7 +67,7 @@ const ExternalNavItem = styled.a`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     padding: 20px 0;
     font-size: 1.5rem;
     z-index: 6;

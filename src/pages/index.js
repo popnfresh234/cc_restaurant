@@ -4,7 +4,13 @@ import Navbar from "../components/Navbar/Navbar"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Carousel from "../components/carousel/carousel"
+import Carousel from "../components/Carousel/carousel"
+import Img from "gatsby-image"
+import styled from "styled-components"
+import Logo from "../components/Logo/logo"
+
+
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -25,6 +31,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <>
+      <Logo/>
       <Navbar />
       <Carousel posts={posts}></Carousel>
       <Layout location={location} title={siteTitle}>
@@ -79,6 +86,13 @@ export const pageQuery = graphql`
         title
       }
     }
+    file(name: { eq: "logo" }, extension: { eq: "png" }) {
+      childImageSharp {
+        fluid(maxWidth: 800, pngQuality: 80) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
@@ -89,9 +103,9 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
-          featuredImage{
-            childImageSharp{
-              fluid(maxWidth: 800){
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 800) {
                 ...GatsbyImageSharpFluid
               }
             }
