@@ -55,7 +55,6 @@ const PostCarousel = ({ posts }) => {
       showThumbs={false}
     >
       {posts.map(post => {
-        console.log(post)
         const title = post.frontmatter.title || post.fields.slug
         return (
           <Link to={post.fields.slug} itemProp="url">

@@ -2,8 +2,7 @@ import React from "react"
 import SEO from "../components/seo"
 import MenuItem from "../components/menu_item"
 import Layout from "../components/layout"
-import Logo from "../components/Logo/logo"
-import Navbar from "../components/Navbar/Navbar"
+import Header from "../components/Header/header"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -160,8 +159,7 @@ const Menu = ({ data, location }) => {
 
   return (
     <>
-      <Logo />
-      <Navbar />
+      <Header/>
       <Layout location={location}>
         <SEO title="Menu" />
         <LinkContainer>

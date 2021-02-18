@@ -74,7 +74,7 @@ const ExternalNavItem = styled.a`
   }
 `
 
-const NavbarNavItems = () => {
+const NavbarNavItems = props => {
   return (
     <>
       <NavItem to="/">Home</NavItem>

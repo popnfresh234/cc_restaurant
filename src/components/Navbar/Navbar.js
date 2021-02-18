@@ -63,7 +63,7 @@ const Hamburger = styled.div`
   background-color: #111;
   width: 30px;
   height: 3px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   align-self: center;
   position: relative;
   transform: ${props => (props.open ? "rotate(-45deg)" : "inherit")};
@@ -103,11 +103,11 @@ const Navbar = () => {
       </Toggle>
       {navbarOpen ? (
         <Navbox>
-          <NavbarLinks />
+          <NavbarLinks handleClick={setNavbarOpen} />
         </Navbox>
       ) : (
         <Navbox open>
-          <NavbarLinks />
+          <NavbarLinks handleClick={setNavbarOpen} />
         </Navbox>
       )}
     </Navigation>

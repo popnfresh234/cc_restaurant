@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Carousel from "../components/Carousel/carousel"
-import Logo from "../components/Logo/logo"
+import Header from "../components/Header/header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
@@ -23,12 +23,10 @@ const BlogIndex = ({ data, location }) => {
       </Layout>
     )
   }
-  console.log(data)
 
   return (
     <>
-      <Logo />
-      <Navbar />
+      <Header />
       <Carousel posts={posts}></Carousel>
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
