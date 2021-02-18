@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `CC's Chinese Restaurant`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -82,6 +82,8 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
-    'gatsby-plugin-styled-components'
+    "gatsby-plugin-styled-components",
+    `gatsby-plugin-preact`,
+    "gatsby-plugin-webpack-bundle-analyser-v2",
   ],
 }

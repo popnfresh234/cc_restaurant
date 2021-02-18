@@ -1,6 +1,8 @@
 import React from "react"
+import SEO from "../components/seo"
 import MenuItem from "../components/menu_item"
 import Layout from "../components/layout"
+import Header from "../components/Header/header"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 import scrollTo from "gatsby-plugin-smoothscroll"
@@ -13,7 +15,7 @@ const LinkContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     flex-direction: column;
     align-items: center;
   }
@@ -55,7 +57,7 @@ const LinkButton = styled.div`
     transform: scaleX(0);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     text-align: center;
     width: 80vw;
     margin: 1rem 0 1rem 0;
@@ -71,7 +73,7 @@ const MenuNavContainer = styled.div`
   padding: 1rem;
   flex-direction: column;
   background-color: #ffffff;
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     margin: 0;
     top: 0;
     flex-direction: row;
@@ -98,17 +100,17 @@ const MenuNavButton = styled.div`
 `
 
 const MenuNavWrapper = styled.div`
-    display: flex;
+  display: flex;
 
-  @media (max-width: 768px) {
-    flex-direction:column;
+  @media (max-width: 42rem) {
+    flex-direction: column;
   }
 `
 
 const MenuSpacer = styled.div`
   height: 8rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     height: 0rem;
   }
 `
@@ -156,50 +158,74 @@ const Menu = ({ data, location }) => {
   })
 
   return (
-    <Layout location={location}>
-      <LinkContainer>
-        <a
-          href="https://ccs-chinese-restaurant-online-order.square.site/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkButton>Order Online</LinkButton>
-        </a>
-        <a
-          href="https://www.skipthedishes.com/CC's-Chinese-Restaurant-North-Vancouver"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkButton>Delivery With Skip The Dishes</LinkButton>
-        </a>
-        <a
-          href="https://www.ubereats.com/vancouver/food-delivery/ccs-chinese-restaurant/-NJ5ZtE5RZycPeBeFWyBPQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkButton>Delivery With Uber Eats</LinkButton>
-        </a>
-      </LinkContainer>
+    <>
+      <Header/>
+      <Layout location={location}>
+        <SEO title="Menu" />
+        <LinkContainer>
+          <a
+            href="https://ccs-chinese-restaurant-online-order.square.site/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkButton>Order Online</LinkButton>
+          </a>
+          <a
+            href="https://www.skipthedishes.com/CC's-Chinese-Restaurant-North-Vancouver"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkButton>Delivery With Skip The Dishes</LinkButton>
+          </a>
+          <a
+            href="https://www.ubereats.com/vancouver/food-delivery/ccs-chinese-restaurant/-NJ5ZtE5RZycPeBeFWyBPQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkButton>Delivery With Uber Eats</LinkButton>
+          </a>
+        </LinkContainer>
 
-      <MenuNavWrapper>
-        <StickyDiv>
-          <MenuSpacer/>
-          <MenuNavContainer>
-            <MenuNavButton onClick={() => scrollTo('#a00')}>Appetizers</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#b00')}>SOUPS。SOUP NOODLE</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#c00')}>Chicken</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#e00')}>Beef</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#f00')}>Pork</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#h00')}>Seafood</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#j00')}>TOFU 。 EGGS。VEGETABLES</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#k00')}>CHOW MEIN 。 FRIED RICE</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#m00')}>DRUNKEN MONKEY</MenuNavButton>
-            <MenuNavButton onClick={() => scrollTo('#w00')}>Frozen Foods</MenuNavButton>
-          </MenuNavContainer>
-        </StickyDiv>
-        <NoStyleOl>{menuItems}</NoStyleOl>
-      </MenuNavWrapper>
-    </Layout>
+        <MenuNavWrapper>
+          <StickyDiv>
+            <MenuSpacer />
+            <MenuNavContainer>
+              <MenuNavButton onClick={() => scrollTo("#a00")}>
+                Appetizers
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#b00")}>
+                SOUPS。SOUP NOODLE
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#c00")}>
+                Chicken
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#e00")}>
+                Beef
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#f00")}>
+                Pork
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#h00")}>
+                Seafood
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#j00")}>
+                TOFU 。 EGGS。VEGETABLES
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#k00")}>
+                CHOW MEIN 。 FRIED RICE
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#m00")}>
+                DRUNKEN MONKEY
+              </MenuNavButton>
+              <MenuNavButton onClick={() => scrollTo("#w00")}>
+                Frozen Foods
+              </MenuNavButton>
+            </MenuNavContainer>
+          </StickyDiv>
+          <NoStyleOl>{menuItems}</NoStyleOl>
+        </MenuNavWrapper>
+      </Layout>
+    </>
   )
 }
 

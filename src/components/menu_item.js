@@ -24,7 +24,7 @@ const CategoryText = styled.div`
   letter-spacing: 1px;
   color: #472b2b; ;
 
-  @media (max-width: 768px) {
+  @media (max-width: 42rem) {
     font-size: 17px;
   }
 `
