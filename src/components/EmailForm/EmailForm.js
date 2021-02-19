@@ -64,11 +64,8 @@ const ErrorWrapper = styled.div`
 const SubmitButton = styled.button`
   max-width: 8rem;
 `
-const EmailForm = ({ rows, date }) => {
-  const [dataRows, setDataRows] = useState(0)
-  const [eventDate, setEventDate] = useState(0)
-  setDataRows(rows)
-  setEventDate(date)
+const EmailForm = ({ date }) => {
+
   const formik = useFormik({
     initialValues: {
       firstName: "",

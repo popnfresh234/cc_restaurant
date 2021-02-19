@@ -3,6 +3,7 @@ import DateUtils from "../utils/DateUtils"
 import Layout from "../components/layout"
 import Header from "../components/Header/header"
 import EmailForm from "../components/EmailForm/EmailForm"
+import SheetUtils from "../utils/SheetUtils"
 
 export default class Rsvp extends React.Component {
   constructor(props) {
@@ -49,20 +50,21 @@ export default class Rsvp extends React.Component {
               Special Bowen Delivery for{" "}
               <strong>
                 {DateUtils.getFormattedDate(
-                  new Date(this.props.location.state.date)
+                  new Date(
+                    this.props.location.state.date
+                  )
                 )}
               </strong>
             </p>
             <p>
               Currently there are{" "}
-              <strong>
-                {this.state.rows.filter(row => {
-                  return parseInt(row.orderDate,10) === this.props.location.state.date
-                }).length}
-              </strong>{" "}
-              people registered to order!
+              <strong>{SheetUtils.FilterRsvps(this.state.rows, this.props.location.state.date).length}</strong> people
+              registered to order!
             </p>
-            <EmailForm rows={this.state.rows} date={this.props.location.state.date} />
+            <EmailForm
+              rows={this.state.rows}
+              date={this.props.location.state.date}
+            />
           </Layout>
         </>
       )
