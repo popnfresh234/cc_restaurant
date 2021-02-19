@@ -10,6 +10,7 @@
   "dependencies": {
     "@fontsource/noto-sans-tc": "^4.2.1",
     "babel-plugin-styled-components": "^1.12.0",
+    "formik": "^2.2.6",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-feed": "^2.13.0",
@@ -28,7 +29,6 @@
     "gatsby-remark-responsive-iframe": "^2.11.0",
     "gatsby-remark-smartypants": "^2.10.0",
     "gatsby-source-filesystem": "^2.11.0",
-    "gatsby-source-google-sheets": "^1.1.1",
     "gatsby-transformer-csv": "^2.10.0",
     "gatsby-transformer-remark": "^2.16.0",
     "gatsby-transformer-sharp": "^2.12.0",

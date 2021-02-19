@@ -81,14 +81,6 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
-    {
-      resolve: "gatsby-source-google-sheets",
-      options: {
-        spreadsheetId: "1-3RX4ljYt4qp7eblHuzGuJtZowF8DR--3PTOJv57oHw",
-        worksheetTitle: "Form Responses 1",
-        credentials: require("./client_secret.json"),
-      },
-    },
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
