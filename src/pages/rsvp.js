@@ -1,13 +1,14 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-class Rsvp extends React.Component {
+export default class Rsvp extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       rows: "dog",
     }
   }
+
   componentDidMount() {
     fetch(
       "https://sheets.googleapis.com/v4/spreadsheets/" +
@@ -27,14 +28,17 @@ class Rsvp extends React.Component {
       })
   }
   render() {
-    console.log(this.state.rows)
-    return (
-      <>
-        <h1>{this.state.rows.length}</h1>
-        What?
-      </>
+    if(this.props.location.state){
+      return (
+        <>
+          <h1>{this.props.location.state.date.toString()}</h1>
+          <h1>{this.state.rows.length}</h1>
+          What?
+        </>
+      )
+    }
+    else return(
+      <h1>Something is wrong!</h1>
     )
   }
 }
-
-export default Rsvp

@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const CardContainer = styled.div`
   display: flex;
@@ -24,7 +24,6 @@ const getFormattedDate = date => {
     month: "long",
     day: "numeric",
   }
-  console.log(date.toLocaleDateString("en-US", options))
   return date.toLocaleDateString("en-US", options)
 }
 
@@ -55,17 +54,19 @@ const DeliveryCard = props => {
   `)
   return (
     <CardContainer>
-      <CardContents>
-        {props.index === 0 ? (
-          <Img fluid={data.bowen_delivery_open.childImageSharp.fluid}/>
-        ) : (
-          <Img fluid={data.bowen_delivery.childImageSharp.fluid} />
-        )}
-        <SmallText>
-          <strong>{getFormattedDate(props.date)}</strong>
-          <br />@ 3:00pm - 5:00pm
-        </SmallText>
-      </CardContents>
+      <Link to="../rsvp" state={{date: props.date}}>
+        <CardContents>
+          {props.index === 0 ? (
+            <Img fluid={data.bowen_delivery_open.childImageSharp.fluid} />
+          ) : (
+            <Img fluid={data.bowen_delivery.childImageSharp.fluid} />
+          )}
+          <SmallText>
+            <strong>{getFormattedDate(props.date)}</strong>
+            <br />@ 3:00pm - 5:00pm
+          </SmallText>
+        </CardContents>
+      </Link>
     </CardContainer>
   )
 }

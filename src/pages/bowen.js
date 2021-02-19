@@ -79,7 +79,9 @@ const Bowen = ({ data, location }) => {
         </p>
         <DeliveryCardsContainer>
           {upcomingDates.map((date, index) => {
-            return <DeliveryCard date={date} index={index} />
+            return (
+               <DeliveryCard date={date} index={index} />
+            )
           })}
         </DeliveryCardsContainer>
       </Layout>
