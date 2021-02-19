@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `CC's Chinese Restaurant`,
@@ -75,6 +79,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-source-google-sheets",
+      options: {
+        spreadsheetId: "1-3RX4ljYt4qp7eblHuzGuJtZowF8DR--3PTOJv57oHw",
+        worksheetTitle: "Form Responses 1",
+        credentials: require("./client_secret.json"),
       },
     },
     `gatsby-plugin-react-helmet`,
