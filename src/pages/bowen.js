@@ -1,28 +1,34 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
 import Header from "../components/Header/header"
 import Layout from "../components/layout"
-const TAG = "cc_tag"
+import DeliveryCard from "../components/DeliveryCard/DeliveryCard"
+import styled from "styled-components"
 
 const getNextFourDates = (allDates, currentDate) => {
+  const MaxDays = 20
   const DayInMs = 86400000
   const utcOffset = currentDate.getTimezoneOffset() * 60000
-  const upcomingDates = allDates.map((utcDate)=> {
-    return new Date(Date.parse(utcDate.date) + utcOffset);
-   }).filter((deliveryDate) => {
-      const diff = (deliveryDate - currentDate) / DayInMs;
-      return (diff > 0 && diff < 28)
-  })
+  const upcomingDates = allDates
+    .map(utcDate => {
+      return new Date(Date.parse(utcDate.date) + utcOffset)
+    })
+    .filter(deliveryDate => {
+      const diff = (deliveryDate - currentDate) / DayInMs
+      return diff > 0 && diff < MaxDays
+    })
   return upcomingDates
 }
+
+const DeliveryCardsContainer = styled.div`
+  display: flex;
+`
 
 const Bowen = ({ data, location }) => {
   const deliveryDates = data.allDeliveryDatesCsv.nodes
   const today = new Date()
-
   const upcomingDates = getNextFourDates(deliveryDates, today)
-  console.log(TAG, upcomingDates)
+
   return (
     <>
       <Header />
@@ -71,6 +77,11 @@ const Bowen = ({ data, location }) => {
           lot <strong>NEXT</strong> to the General Store, NOT the main parking
           lot.
         </p>
+        <DeliveryCardsContainer>
+          {upcomingDates.map((date, index) => {
+            return <DeliveryCard date={date} index={index} />
+          })}
+        </DeliveryCardsContainer>
       </Layout>
     </>
   )
@@ -83,26 +94,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    bowen_delivery: file(
-      name: { eq: "bowen_delivery" }
-      extension: { eq: "jpg" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 800, pngQuality: 80) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    bowen_delivery_open: file(
-      name: { eq: "bowen_delivery_open" }
-      extension: { eq: "jpg" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 800, pngQuality: 80) {
-          ...GatsbyImageSharpFluid
-        }
       }
     }
     allDeliveryDatesCsv {
