@@ -18,7 +18,7 @@ const getFormattedDate = date => {
       })
       .filter(deliveryDate => {
         const diff = (deliveryDate - currentDate) / DayInMs
-        return diff > 0 && diff < MaxDays
+        return diff > -1 && diff < MaxDays
       })
     return upcomingDates
   }

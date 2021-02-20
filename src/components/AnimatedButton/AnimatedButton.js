@@ -4,9 +4,9 @@ import styled from "styled-components"
 const AnimatedButton = styled.div`
   position: relative;
   display: inline-block;
-  flex: 1;
   border: 1px solid #472b2b;
   color: #ffffff;
+  flex: ${props => (props.flex ? props.flex : 1)};
   padding: 0.8rem 1rem 0.8rem 1rem;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -45,11 +45,8 @@ const AnimatedButton = styled.div`
   }
 `
 
-
-const AnimatedButtom = ({text  }) => {
-    return(
-        <AnimatedButton>{text}</AnimatedButton>
-    )
+const AnimatedButtom = ({ flex, text }) => {
+  return <AnimatedButton flex={flex}>{text}</AnimatedButton>
 }
 
-export default AnimatedButtom;
+export default AnimatedButtom

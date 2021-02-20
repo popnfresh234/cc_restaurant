@@ -16,16 +16,14 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+        <h4>{title}</h4>
     )
   }
 
   return (
     <>
       <div className="global-wrapper" data-is-root-path={isRootPath}>
-        <header className="global-header">
+        <header style={{textAlign: "center"}}className="global-header">
           <>{header}</>
         </header>
         <main>{children}</main>
