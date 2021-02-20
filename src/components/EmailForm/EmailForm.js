@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import { useFormik } from "formik"
+import { navigate } from "gatsby"
 
 const validate = values => {
   const errors = {}
@@ -65,7 +66,6 @@ const SubmitButton = styled.button`
   max-width: 8rem;
 `
 const EmailForm = ({ date }) => {
-
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -85,6 +85,7 @@ const EmailForm = ({ date }) => {
         .catch(error => {
           console.log("Oh no..", error.message)
         })
+        navigate('/redirect')
     },
   })
 
