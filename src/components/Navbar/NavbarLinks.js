@@ -86,7 +86,7 @@ const NavbarNavItems = props => {
       >
         Online Order
       </ExternalNavItem>
-      <ExternalNavItem to="/delivery">Delivery</ExternalNavItem>
+      <NavItem to="/delivery">Delivery</NavItem>
       <ExternalNavItem
         href="https://squareup.com/gift/E7DQNVQS4CR2V/order"
         target="_blank"

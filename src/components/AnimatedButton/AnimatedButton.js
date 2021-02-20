@@ -4,6 +4,7 @@ import styled from "styled-components"
 const AnimatedButton = styled.div`
   position: relative;
   display: inline-block;
+  flex: 1;
   border: 1px solid #472b2b;
   color: #ffffff;
   padding: 0.8rem 1rem 0.8rem 1rem;
