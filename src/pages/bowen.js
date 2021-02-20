@@ -1,20 +1,48 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header/header"
 import Layout from "../components/layout"
 import DeliveryCard from "../components/DeliveryCard/DeliveryCard"
 import styled from "styled-components"
-import DateUtils from '../utils/DateUtils'
-
+import DateUtils from "../utils/DateUtils"
 
 const DeliveryCardsContainer = styled.div`
   display: flex;
+  @media (max-width: 42rem) {
+   flex-direction: column;
+   align-items: center;
+  }
 `
 
 const Bowen = ({ data, location }) => {
+  const [rsvps, setRsvps] = useState([])
   const deliveryDates = data.allDeliveryDatesCsv.nodes
   const today = new Date()
   const upcomingDates = DateUtils.getNextFourDates(deliveryDates, today)
+
+  useEffect(() => {
+    fetch(
+      "https://sheets.googleapis.com/v4/spreadsheets/" +
+        process.env.BOWEN_SHEET_ID +
+        "/values/" +
+        process.env.BOWEN_PAGE_NAME +
+        "!A2:f200000000?key=" +
+        process.env.BOWEN_API_KEY
+    )
+      .then(response => response.json())
+      .then(jsonResponse => {
+        const parsedRows = jsonResponse.values.map(row => {
+          return {
+            firstName: row[1],
+            lastName: row[2],
+            phone: row[3],
+            email: row[4],
+            orderDate: row[5],
+          }
+        })
+        setRsvps(parsedRows)
+      })
+  }, [])
 
   return (
     <>
@@ -66,9 +94,7 @@ const Bowen = ({ data, location }) => {
         </p>
         <DeliveryCardsContainer>
           {upcomingDates.map((date, index) => {
-            return (
-               <DeliveryCard date={date} index={index} />
-            )
+            return <DeliveryCard rsvps={rsvps} date={date} index={index} />
           })}
         </DeliveryCardsContainer>
       </Layout>
