@@ -6,6 +6,7 @@ import Header from "../components/Header/header"
 import styled from "styled-components"
 import { graphql } from "gatsby"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import AnimatedButton from "../components/AnimatedButton/AnimatedButton"
 
 const NoStyleOl = styled.ol`
   list-style-type: none;
@@ -21,48 +22,6 @@ const LinkContainer = styled.div`
   }
 `
 
-const LinkButton = styled.div`
-  position: relative;
-  display: inline-block;
-  border: 1px solid #472b2b;
-  color: #ffffff;
-  padding: 0.8rem 1rem 0.8rem 1rem;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-family: arial;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
-
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #472b2b;
-    z-index: -1;
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-  }
-  :hover {
-    color: #472b2b;
-  }
-  :hover:before {
-    -webkit-transform: scaleX(0);
-    -ms-transform: scaleX(0);
-    transform: scaleX(0);
-  }
-
-  @media (max-width: 42rem) {
-    text-align: center;
-    width: 80vw;
-    margin: 1rem 0 1rem 0;
-  }
-`
 
 const MenuNavContainer = styled.div`
   position: sticky;
@@ -168,21 +127,21 @@ const Menu = ({ data, location }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkButton>Order Online</LinkButton>
+            <AnimatedButton text="Order Online"/>
           </a>
           <a
             href="https://www.skipthedishes.com/CC's-Chinese-Restaurant-North-Vancouver"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkButton>Delivery With Skip The Dishes</LinkButton>
+            <AnimatedButton text="Delivery With Skip The Dishes"/>
           </a>
           <a
             href="https://www.ubereats.com/vancouver/food-delivery/ccs-chinese-restaurant/-NJ5ZtE5RZycPeBeFWyBPQ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <LinkButton>Delivery With Uber Eats</LinkButton>
+            <AnimatedButton text="Delivery With Uber Eats"/>
           </a>
         </LinkContainer>
 
