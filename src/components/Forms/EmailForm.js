@@ -86,7 +86,7 @@ const EmailForm = ({ date }) => {
         .catch(error => {
           console.log("Oh no..", error.message)
         })
-        navigate('/redirect')
+        navigate('/redirect',{state:{action:"registering"}})
     },
   })
 
