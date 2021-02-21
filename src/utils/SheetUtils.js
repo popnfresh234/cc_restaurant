@@ -1,6 +1,4 @@
 const FilterRsvps = (rsvps, date) => {
-  console.log(rsvps)
-  console.log(date)
   const result = []
   const map = new Map()
   for (const item of rsvps) {
