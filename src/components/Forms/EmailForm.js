@@ -79,13 +79,14 @@ const EmailForm = ({ date }) => {
       Object.keys(values).forEach(key => {
         formData.append(key, values[key])
       })
-      formData.append("date", date)
-      fetch(process.env.GOOGLE_SCRIPT_URL, { method: "POST", body: formData })
+      formData.append("date", date.getTime())
+      formData.append("human_date", date)
+      fetch(process.env.GATSBY_GOOGLE_SCRIPT_URL, { method: "POST", body: formData })
         .then(response => console.log("it worked!", response))
         .catch(error => {
           console.log("Oh no..", error.message)
         })
-        navigate('/redirect')
+        navigate('/redirect',{state:{action:"registering"}})
     },
   })
 

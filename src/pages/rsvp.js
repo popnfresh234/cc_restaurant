@@ -2,72 +2,44 @@ import React from "react"
 import DateUtils from "../utils/DateUtils"
 import Layout from "../components/layout"
 import Header from "../components/Header/header"
-import EmailForm from "../components/EmailForm/EmailForm"
+import EmailForm from "../components/Forms/EmailForm"
 import SheetUtils from "../utils/SheetUtils"
 
-export default class Rsvp extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      rows: [],
-    }
-  }
-
-  componentDidMount() {
-    fetch(
-      "https://sheets.googleapis.com/v4/spreadsheets/" +
-        process.env.GATSBY_BOWEN_SHEET_ID +
-        "/values/" +
-        process.env.GATSBY_BOWEN_PAGE_NAME +
-        "!A2:f200000000?key=" +
-        process.env.GATSBY_BOWEN_API_KEY
+const Rsvp = ({ location }) => {
+  if (location.state) {
+    return (
+      <>
+        <Header />
+        <Layout location={location}>
+          <p>
+            Special Bowen Delivery for{" "}
+            <strong>
+              {DateUtils.getFormattedDate(
+                new Date(location.state.date)
+              )}
+            </strong>
+          </p>
+          <p>
+            Currently there are{" "}
+            <strong>
+              {
+                SheetUtils.FilterRsvps(
+                  location.state.rsvps,
+                  location.state.date
+                ).length
+              }
+            </strong>{" "}
+            people registered to order!
+          </p>
+          <EmailForm
+            rsvps={location.state.rsvps}
+            date={location.state.date}
+          />
+        </Layout>
+      </>
     )
-      .then(response => {
-        return response.json()
-      })
-      .then(jsonResponse => {
-        const parsedRows = jsonResponse.values.map(row => {
-          return {
-            firstName: row[1],
-            lastName: row[2],
-            phone: row[3],
-            email: row[4],
-            orderDate: row[5],
-          }
-        })
-        this.setState({
-          rows: parsedRows,
-        })
-      })
-  }
-  render() {
-    if (this.props.location.state) {
-      return (
-        <>
-          <Header />
-          <Layout location={this.props.location}>
-            <p>
-              Special Bowen Delivery for{" "}
-              <strong>
-                {DateUtils.getFormattedDate(
-                  new Date(
-                    this.props.location.state.date
-                  )
-                )}
-              </strong>
-            </p>
-            <p>
-              Currently there are{" "}
-              <strong>{SheetUtils.FilterRsvps(this.state.rows, this.props.location.state.date).length}</strong> people
-              registered to order!
-            </p>
-            <EmailForm
-              rows={this.state.rows}
-              date={this.props.location.state.date}
-            />
-          </Layout>
-        </>
-      )
-    } else return <h1>Something is wrong!</h1>
-  }
+  } else return <h1>Something is wrong!</h1>
 }
+
+export default Rsvp
+

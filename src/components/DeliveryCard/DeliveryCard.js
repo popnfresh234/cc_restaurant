@@ -55,7 +55,7 @@ const DeliveryCard = ({rsvps,date,index}) => {
   `)
   return (
     <CardContainer>
-      <Link to="../rsvp" state={{date: date}}>
+      <Link to="../rsvp" state={{date: date, rsvps: rsvps}}>
         <CardContents>
           <span>Current RSVPs: {currentRsvps.length}</span>
           {currentRsvps.length > 4 ? (
