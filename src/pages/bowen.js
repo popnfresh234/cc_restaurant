@@ -9,8 +9,8 @@ import DateUtils from "../utils/DateUtils"
 const DeliveryCardsContainer = styled.div`
   display: flex;
   @media (max-width: 42rem) {
-   flex-direction: column;
-   align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -31,17 +31,20 @@ const Bowen = ({ data, location }) => {
     )
       .then(response => response.json())
       .then(jsonResponse => {
-        const parsedRows = jsonResponse.values.map(row => {
-          return {
-            firstName: row[1],
-            lastName: row[2],
-            phone: row[3],
-            email: row[4],
-            orderDate: row[5],
-          }
-        })
-        setRsvps(parsedRows)
-      }).catch((err) => {
+        if (jsonResponse.values) {
+          const parsedRows = jsonResponse.values.map(row => {
+            return {
+              firstName: row[1],
+              lastName: row[2],
+              phone: row[3],
+              email: row[4],
+              orderDate: row[5],
+            }
+          })
+          setRsvps(parsedRows)
+        }
+      })
+      .catch(err => {
         console.log("FETCH ERROR: ", err)
       })
   }, [])
