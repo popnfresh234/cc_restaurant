@@ -16,11 +16,11 @@ export default class Rsvp extends React.Component {
   componentDidMount() {
     fetch(
       "https://sheets.googleapis.com/v4/spreadsheets/" +
-        process.env.BOWEN_SHEET_ID +
+        process.env.GATSBY_BOWEN_SHEET_ID +
         "/values/" +
-        process.env.BOWEN_PAGE_NAME +
+        process.env.GATSBY_BOWEN_PAGE_NAME +
         "!A2:f200000000?key=" +
-        process.env.BOWEN_API_KEY
+        process.env.GATSBY_BOWEN_API_KEY
     )
       .then(response => {
         return response.json()
