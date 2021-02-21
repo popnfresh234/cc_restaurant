@@ -41,6 +41,8 @@ const Bowen = ({ data, location }) => {
           }
         })
         setRsvps(parsedRows)
+      }).catch((err) => {
+        console.log("FETCH ERROR: ", err)
       })
   }, [])
 
