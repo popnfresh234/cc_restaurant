@@ -15,7 +15,6 @@ const DeliveryCardsContainer = styled.div`
 `
 
 const Bowen = ({ data, location }) => {
-  console.log(process.env.GATSBY_BOWEN_API_KEY)
   const [rsvps, setRsvps] = useState([])
   const deliveryDates = data.allDeliveryDatesCsv.nodes
   const today = new Date()
