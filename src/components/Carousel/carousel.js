@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
 
@@ -46,12 +46,15 @@ const InnerContent = styled.div`
 
 const PostCarousel = ({ posts }) => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 42rem)" })
-
+  const [isMobile, setIsMobile] = useState([])
+  useEffect(() => {
+    setIsMobile(isTabletOrMobile)
+  }, [isTabletOrMobile])
   return (
     <Carousel
       infiniteLoop
-      centerMode={!isTabletOrMobile}
-      centerSlidePercentage={80}
+      centerMode={!isMobile}
+      centerSlidePercentage={isMobile ? 100 : 80}
       showThumbs={false}
     >
       {posts.map(post => {
