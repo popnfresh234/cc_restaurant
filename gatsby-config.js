@@ -6,8 +6,8 @@ module.exports = {
   siteMetadata: {
     title: `CC's Chinese Restaurant`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `CC's Chinese Restaurant`,
+      summary: `serving our commnity for 49 years`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,

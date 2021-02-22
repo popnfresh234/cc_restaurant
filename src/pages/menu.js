@@ -8,6 +8,8 @@ import { graphql } from "gatsby"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import AnimatedButton from "../components/AnimatedButton/AnimatedButton"
 
+const title = "Menu"
+
 const NoStyleOl = styled.ol`
   list-style-type: none;
 `
@@ -119,7 +121,7 @@ const Menu = ({ data, location }) => {
   return (
     <>
       <Header/>
-      <Layout location={location}>
+      <Layout location={location} title={title}>
         <SEO title="Menu" />
         <LinkContainer>
           <a

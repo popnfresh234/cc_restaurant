@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/Header/header"
 import styled from "styled-components"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import AnimatedButton from "../components/AnimatedButton/AnimatedButton"
 import { Link } from "gatsby"
 
@@ -33,6 +34,7 @@ const Delivery = ({ location }) => {
     <>
       <Header />
       <Layout title={title} location={location}>
+        <SEO title="Delivery Services" />
         <Wrapper>
           <ExternalLink
             href="https://www.skipthedishes.com/CC's-Chinese-Restaurant-North-Vancouver"
