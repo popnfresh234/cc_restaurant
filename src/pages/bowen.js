@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/Header/header"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import DeliveryCard from "../components/DeliveryCard/DeliveryCard"
 import styled from "styled-components"
 import DateUtils from "../utils/DateUtils"
+
+const title = "Bowen Island Special Delivery"
 
 const DeliveryCardsContainer = styled.div`
   display: flex;
@@ -52,7 +55,8 @@ const Bowen = ({ data, location }) => {
   return (
     <>
       <Header />
-      <Layout location={location}>
+      <Layout location={location} title={title}>
+        <SEO title="Bowen Island Special Delivery"/>
         <h2>SPECIAL BOWEN DELIVERY SIGN UP</h2>
         <p>
           If you’d like to place an order, please click one of the dates below

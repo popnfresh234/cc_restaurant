@@ -8,12 +8,13 @@ import Header from "../components/Header/header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
+  const title = "Home"
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title={title} />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -28,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
       <Header />
       <Carousel posts={posts}></Carousel>
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title={title} />
         <h4>Capilano Heights is back with a new brand image!</h4>
         <Img fluid={data.file.childImageSharp.fluid} />
         <p>

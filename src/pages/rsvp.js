@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import Header from "../components/Header/header"
 import EmailForm from "../components/Forms/EmailForm"
 import SheetUtils from "../utils/SheetUtils"
+import SEO from "../components/seo"
+
+const title = "Bowen RSVP"
 
 const Rsvp = ({ location }) => {
   if (location.state) {
@@ -11,6 +14,7 @@ const Rsvp = ({ location }) => {
       <>
         <Header />
         <Layout location={location}>
+          <SEO title = {title}/>
           <p>
             Special Bowen Delivery for{" "}
             <strong>
