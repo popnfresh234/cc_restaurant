@@ -7,12 +7,12 @@ module.exports = {
     title: `CC's Chinese Restaurant`,
     author: {
       name: `CC's Chinese Restaurant`,
-      summary: `serving our commnity for 49 years`,
+      summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `CC's Chinese Restaurant serving the local community for over 45 years`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `ccnorthvan`,
     },
   },
   plugins: [
