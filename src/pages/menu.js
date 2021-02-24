@@ -24,15 +24,16 @@ const LinkContainer = styled.div`
 const Menu = ({ data, location }) => {
   const pictures = data.allFile.nodes.map(node => {
     const obj = {}
-    const name = node.childImageSharp.fluid.originalName.replace(
-      /\.[^/.]+$/,
-      ""
-    )
-    const fluid = node.childImageSharp.fluid
-    obj[name] = fluid
+    const itemCode = node.childImageSharp.fluid.originalName.match(/^[^_]+(?=_)/);
+    if(itemCode){
+      const name = itemCode[0].toLowerCase()
+      const fluid = node.childImageSharp.fluid
+      obj[name] = fluid
+    }
     return obj
   })
 
+  console.log(pictures)
   const picLookup = pictures.reduce((acum, cur) => {
     const key = Object.keys(cur)[0]
     acum[key] = cur[key]
@@ -42,6 +43,7 @@ const Menu = ({ data, location }) => {
   const items = data.allMenuItemsCsv.nodes
 
   const menuItems = items.map(item => {
+    console.log(picLookup[item])
     return (
       <MenuItem
         key={item.code}
@@ -123,7 +125,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    file(extension: { eq: "png" }, name: { eq: "place_holder" }) {
+    file(extension: { eq: "png" }, name: { eq: "P00_place_holder" }) {
       childImageSharp {
         fluid(maxWidth: 200, maxHeight: 200) {
           originalName

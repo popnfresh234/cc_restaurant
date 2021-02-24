@@ -91,7 +91,7 @@ const MenuItem = ({ fluid, code, english, chinese, price }) => {
         <DescriptionContainer>
           <MenuHeaderContainer>
             <MenuText>
-              {english}
+              {code}{" "}{english}
             </MenuText>
             <Dot />
             <MenuText>{formatPrice(price)}</MenuText>
