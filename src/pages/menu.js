@@ -33,7 +33,6 @@ const Menu = ({ data, location }) => {
     return obj
   })
 
-  console.log(pictures)
   const picLookup = pictures.reduce((acum, cur) => {
     const key = Object.keys(cur)[0]
     acum[key] = cur[key]
