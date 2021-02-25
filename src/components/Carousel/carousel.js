@@ -60,7 +60,7 @@ const PostCarousel = ({ posts }) => {
       {posts.map(post => {
         const title = post.frontmatter.title || post.fields.slug
         return (
-          <Link to={post.fields.slug} itemProp="url">
+          <Link key={post.fields.slug} to={post.fields.slug} itemProp="url">
             <CarouselImage
               fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
             />
