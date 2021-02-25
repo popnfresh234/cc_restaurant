@@ -1,6 +1,6 @@
 ---
 title: Meet the Drunken Monkey
-featuredImage: monkey_hero.jpg
+featuredImage: monkey_hero.webp
 date: 2020-12-29T22:12:03.284Z
 description: Learn all about the Drunken Monkey!
 ---
