@@ -1,9 +1,12 @@
 ---
 title: Ready-Made Frozen Chinese Food
 featuredImage: frozen_food_hero.jpg
-date: 2015-05-01T22:12:03.284Z
+date: 2020-12-31T22:12:03.284Z
 description: Introducing our newest product, ready to eat frozen Chinese food!
 ---
+
+![](frozen_food_hero.jpg)
+
 
 <div align="center">
     <h4>CC's and Drunken Monkey Present:</h4>
@@ -52,13 +55,16 @@ Level up your dinner with our newly created At-Home Menu! Now you can finally br
 ---
 **Stovetop Prepartion:** Remove product label and place bag into a pot of boilng water.  Adjust to low heat and simmer 5 to 8 minutes.
 
-![](frozen_food_01.jpg)
+![](frozen_food_01.jpg "Stovetop preparation")
 
 ---
 
 **Microwave Peparation:** Open pacakge and pour contents into a microwave safe container.  Microwave for 3 to 5 minutes.
 
-![](frozen_food_02.jpg)
-![](frozen_food_03.jpg)
+![](frozen_food_02.jpg "Microwave Prep, Step One")
+![](frozen_food_03.jpg "Microwave Prep, Step Two")
 
 ---
+
+#### Enjoy your meal!
+![](frozen_food_04.jpg "Great job!  It's ready to eat!")

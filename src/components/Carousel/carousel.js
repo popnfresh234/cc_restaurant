@@ -8,6 +8,8 @@ import "./override.css"
 import { Carousel } from "react-responsive-carousel"
 import { useMediaQuery } from "react-responsive"
 
+const sliderCenterWidth = 50
+
 const CarouselImage = styled(Img)`
   max-height: 500px;
   margin: 0 0.2rem 0 0.2rem;
@@ -24,6 +26,7 @@ const ContentContainer = styled.div`
   width: 100%;
   height: 100%;
   transition: 0.4 all ease;
+  background: linear-gradient(0deg, #00000088 50%, #ffffff44 100%);
 `
 
 const BorderDiv = styled.div`
@@ -33,6 +36,7 @@ const BorderDiv = styled.div`
   max-width: 30%;
   max-height: 50%;
   border: 1px solid white;
+
 `
 
 const InnerContent = styled.div`
@@ -40,7 +44,7 @@ const InnerContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem;
+  padding: 2rem;
   background-color: #ffffff;
 `
 
@@ -54,7 +58,7 @@ const PostCarousel = ({ posts }) => {
     <Carousel
       infiniteLoop
       centerMode={!isMobile}
-      centerSlidePercentage={isMobile ? 100 : 80}
+      centerSlidePercentage={isMobile ? 100 : sliderCenterWidth}
       showThumbs={false}
     >
       {posts.map(post => {
@@ -67,10 +71,10 @@ const PostCarousel = ({ posts }) => {
             {!isTabletOrMobile && (
               <ContentContainer>
                 <BorderDiv>
-                  <InnerContent>
-                    <h2>
+                  <InnerContent style={{ width: "100%" }}>
+                    <h4 style={{ margin: 0 }}>
                       <span itemProp="headline">{title}</span>
-                    </h2>
+                    </h4>
                     <p
                       dangerouslySetInnerHTML={{
                         __html: post.frontmatter.date,
