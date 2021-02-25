@@ -25,8 +25,7 @@ const ContentContainer = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  transition: 0.4 all ease;
-  background: linear-gradient(0deg, #00000088 50%, #ffffff44 100%);
+  background: linear-gradient(0deg, #00000075 20%, #ffffff44 100%);
 `
 
 const BorderDiv = styled.div`
@@ -60,6 +59,8 @@ const PostCarousel = ({ posts }) => {
       centerMode={!isMobile}
       centerSlidePercentage={isMobile ? 100 : sliderCenterWidth}
       showThumbs={false}
+      autoPlay={true}
+      interval={3000}
     >
       {posts.map(post => {
         const title = post.frontmatter.title || post.fields.slug
