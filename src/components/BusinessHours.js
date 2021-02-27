@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
+import { getFormattedTime } from "../utils/DateUtils"
 
 const Wrapper = styled.div`
   display: flex;
@@ -39,15 +40,19 @@ const BusinessHours = () => {
             <h4>Business Hours</h4>
           </Row>
 
-          {data.allBusinessHoursCsv.nodes.map(day => {
+          {data.allBusinessHoursCsv.nodes.map((day, i) => {
             return (
-              <Row>
+              <Row key={day.day}>
                 <Cell>{day.day}</Cell>
-                <Cell>
-                  {day.open}
-                  {" ~ "}
-                  {day.close}
-                </Cell>
+                {i !== 0 ? (
+                  <Cell>
+                    {getFormattedTime(day.open)}
+                    {" ~ "}
+                    {getFormattedTime(day.close)}
+                  </Cell>
+                ) : (
+                  <Cell>{day.open}</Cell>
+                )}
               </Row>
             )
           })}
