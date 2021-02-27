@@ -111,7 +111,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     "gatsby-plugin-styled-components",
     `gatsby-plugin-preact`,
-    "gatsby-plugin-webpack-bundle-analyser-v2",
+    // "gatsby-plugin-webpack-bundle-analyser-v2",
     "gatsby-plugin-catch-links",
   ],
 }
