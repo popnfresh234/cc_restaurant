@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Header from "../components/Header/header"
 import styled from "styled-components"
 import { graphql } from "gatsby"
-import scrollTo from "gatsby-plugin-smoothscroll"
 import AnimatedButton from "../components/AnimatedButton/AnimatedButton"
 import MenuNav from "../components/MenuNav/MenuNav"
 

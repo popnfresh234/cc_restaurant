@@ -11,23 +11,25 @@ const restaurantLocation = {
   lng: -123.1062505,
 }
 
-const Map = () => {
-  const TitleBox = styled.div`
-    border: 1px solid black;
-    background: white;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  `
+const TitleBox = styled.div`
+border: 1px solid black;
+background: white;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+width: 100%;
+`
 
-  const TitleBoxHeader = styled.span`
-    font-weight: bold;
-    white-space: nowrap;
-  `
-  const TitleBoxContent = styled.span`
-    white-space: nowrap;
-  `
+const TitleBoxHeader = styled.span`
+font-weight: bold;
+white-space: nowrap;
+`
+const TitleBoxContent = styled.span`
+white-space: nowrap;
+`
+
+const Map = () => {
+
   return (
     <LoadScript googleMapsApiKey={process.env.GATSBY_GOOGLE_MAPS_KEY}>
       <GoogleMap
