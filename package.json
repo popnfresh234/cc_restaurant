@@ -10,6 +10,7 @@
   "dependencies": {
     "@fontsource/noto-sans-tc": "^4.2.1",
     "@react-google-maps/api": "^2.1.1",
+    "babel-plugin-styled-components": "^1.12.0",
     "formik": "^2.2.6",
     "gatsby": "^2.32.8",
     "gatsby-image": "^2.11.0",
