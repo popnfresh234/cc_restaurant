@@ -41,7 +41,6 @@ const Map = () => {
             <TitleBoxHeader>CC's Chinese Restaurant</TitleBoxHeader>
             <TitleBoxContent>5020 Capilano Rd</TitleBoxContent>
             <TitleBoxContent>604-987-9511</TitleBoxContent>
-
           </TitleBox>
         </InfoBox>
       </GoogleMap>

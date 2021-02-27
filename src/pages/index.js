@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import Carousel from "../components/Carousel/carousel"
 import Header from "../components/Header/header"
 import BusinessHours from "../components/BusinessHours"
+import Map from "../components/map"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
   const title = "Home"
@@ -39,7 +41,7 @@ const BlogIndex = ({ data, location }) => {
         <p>CC's CHINESE RESTAURANT presented by Drunken Monkey</p>
         <p>
           In loving memory of C.C. Sun, we rename Capilano Heights with his
-          name. And this time, we are going to bring some new flavour withu
+          name. And this time, we are going to bring some new flavour with
           Drunken Monkey, a restaurant CC's grandson, Alex, opened in Taipei,
           Taiwan. Besides bringing some Taiwanese style dishes in the
           restaurant, Drunken Monkey cooking class is also on its way to open!
@@ -53,6 +55,7 @@ const BlogIndex = ({ data, location }) => {
           Please come and join us for a wonderful dining experience for all your
           friends and family. See you soon!
         </p>
+        <Map/>
         <BusinessHours />
       </Layout>
     </>
