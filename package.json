@@ -71,8 +71,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "resolutions": {
-    "minipass": "2.7.0"
   }
 }
