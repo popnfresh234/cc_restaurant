@@ -44,6 +44,7 @@
     "react-helmet": "^5.2.1",
     "react-responsive": "^8.2.0",
     "react-responsive-carousel": "^3.2.12",
+    "styled-components": "^5.2.1",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75"
   },
