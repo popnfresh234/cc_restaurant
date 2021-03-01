@@ -19,6 +19,7 @@
     "gatsby-plugin-gatsby-cloud": "^1.0.2",
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
     "gatsby-plugin-netlify-cms": "^4.10.0",
     "gatsby-plugin-offline": "^3.10.2",
     "gatsby-plugin-preact": "^4.7.0",
