@@ -7,6 +7,7 @@ import Carousel from "../components/Carousel/carousel"
 import Header from "../components/Header/header"
 import BusinessHours from "../components/BusinessHours"
 import Map from "../components/map"
+import Contact from "../components/contact"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title || `Title`
@@ -56,6 +57,7 @@ const BlogIndex = ({ data, location }) => {
           friends and family. See you soon!
         </p>
         <Map/>
+        <Contact/>
         <BusinessHours />
       </Layout>
     </>
