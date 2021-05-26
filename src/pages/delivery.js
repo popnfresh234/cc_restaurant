@@ -56,6 +56,16 @@ const Delivery = ({ location }) => {
             <SpacerDiv />
           </ExternalLink>
 
+          <ExternalLink
+            href="https://www.doordash.com/store/cc-s-chinese-restaurant-north-vancouver-163752/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SpacerDiv />
+            <AnimatedButton flex={2} text="Delivery With Door Dash" />
+            <SpacerDiv />
+          </ExternalLink>
+
           <InternalLink to="../bowen">
             <SpacerDiv />
             <AnimatedButton flex={2} text="Bowen Island Special Delivery" />
