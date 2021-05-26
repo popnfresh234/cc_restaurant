@@ -97,8 +97,7 @@ const Bowen = ({ data, location }) => {
         <h4>PICKUP LOCATION AND TIME</h4>
         <p>
           We generally will take the 4:35pm ferry from Horseshoe Bay to Snug
-          Cove. The pickup point will be at the <strong>LOWER</strong> parking
-          lot <strong>NEXT</strong> to the General Store, NOT the main parking
+          Cove. The pickup point will be at the <strong>ELEMENTARY SCHOOL</strong> parking
           lot.
         </p>
         <DeliveryCardsContainer>
