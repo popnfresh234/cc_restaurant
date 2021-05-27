@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Header from "../components/Header/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -86,7 +86,7 @@ const Bowen = ({ data, location }) => {
           Please place your order before 12pm on the day of the delivery on our
           online store and leave <strong>SPECIAL BOWEN DELIVERY</strong> as a
           note in your order. ( There is an input field at the last step when
-          checking out, please click into THIS POST for instruction on leaving
+          checking out, please click into <Link to="/instruction-for-bowen-delivery">THIS POST</Link> for instruction on leaving
           note in online store.) Please specify the pick up time at 3pm on the
           day of the delivery. ( or anytime between 3 to 5pm if 3pm is not
           available){" "}
