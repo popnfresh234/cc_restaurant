@@ -71,7 +71,6 @@ const PostCarousel = ({ posts }) => {
             <CarouselImage
               fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
             />
-
             <ContentContainer>
               <BorderDiv>
                 <InnerContent style={{ width: "100%" }}>

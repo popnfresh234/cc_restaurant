@@ -85,6 +85,14 @@ const Menu = ({ data, location }) => {
           >
             <AnimatedButton text="Delivery With Uber Eats" />
           </a>
+          <a
+            href="https://www.doordash.com/store/cc-s-chinese-restaurant-north-vancouver-163752/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AnimatedButton text="Delivery With Door Dash" />
+          </a>
+          
         </LinkContainer>
         <MenuNav menuItems={menuItems} />
       </Layout>
