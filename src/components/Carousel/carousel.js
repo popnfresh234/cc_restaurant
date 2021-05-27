@@ -35,7 +35,9 @@ const BorderDiv = styled.div`
   max-width: 30%;
   max-height: 50%;
   border: 1px solid white;
-
+  @media (max-width: 42rem) {
+    min-width: 80%;
+  }
 `
 
 const InnerContent = styled.div`
@@ -69,23 +71,22 @@ const PostCarousel = ({ posts }) => {
             <CarouselImage
               fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
             />
-            {!isTabletOrMobile && (
-              <ContentContainer>
-                <BorderDiv>
-                  <InnerContent style={{ width: "100%" }}>
-                    <h4 style={{ margin: 0 }}>
-                      <span itemProp="headline">{title}</span>
-                    </h4>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.date,
-                      }}
-                      itemProp="date"
-                    />
-                  </InnerContent>
-                </BorderDiv>
-              </ContentContainer>
-            )}
+
+            <ContentContainer>
+              <BorderDiv>
+                <InnerContent style={{ width: "100%" }}>
+                  <h4 style={{ margin: 0 }}>
+                    <span itemProp="headline">{title}</span>
+                  </h4>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: post.frontmatter.date,
+                    }}
+                    itemProp="date"
+                  />
+                </InnerContent>
+              </BorderDiv>
+            </ContentContainer>
           </Link>
         )
       })}
