@@ -83,7 +83,7 @@ const Menu = ({ data, location }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AnimatedButton text="Delivery With Uber Eats!" />
+            <AnimatedButton text="Delivery With Uber Eats" />
           </a>
         </LinkContainer>
         <MenuNav menuItems={menuItems} />
