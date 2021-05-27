@@ -14,6 +14,7 @@ const AnimatedButton = styled.div`
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
 
+
   :before {
     content: "";
     position: absolute;
