@@ -69,7 +69,8 @@ const PostCarousel = ({ posts }) => {
         return (
           <Link key={post.fields.slug} to={post.fields.slug} itemProp="url">
             <CarouselImage
-              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+              //Add a check to make sure there is a featured image, later replace with placeholder
+              fluid={post.frontmatter.featuredImage && post.frontmatter.featuredImage.childImageSharp.fluid}
             />
             <ContentContainer>
               <BorderDiv>
