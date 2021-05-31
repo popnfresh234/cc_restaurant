@@ -31,7 +31,7 @@ feat/{your_feature_name}
 ```
 
 ```
-$ git branch -b feat/{your_feature_name}
+$ git checkout -b feat/{your_feature_name}
 ```
 
 Make desired changes.  All changes can be added to git via the following:
