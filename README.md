@@ -21,6 +21,7 @@ $ gatsby develop
 
 This will launch a development server on your local machine.  The server runs on `localhost:8000` by default, enter this into your browser to visit the site.
 
+---
 ## Adding features
 
 To add a feature to the website first create and checkout a new branch using the following format
@@ -68,6 +69,7 @@ Finally, you can delete your local copy of the feature branch if you are finishe
 $ git branch -d feat/{your_feature_name}
 ```
 
+---
 ## Bug fixes
 
 The process for fixes is similar, naming convention for a fix branch is as follows:
