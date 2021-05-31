@@ -68,6 +68,8 @@ Finally, you can delete your local copy of the feature branch if you are finishe
 $ git branch -d feat/{your_feature_name}
 ```
 
+## Bug fixes
+
 The process for fixes is similar, naming convention for a fix branch is as follows:
 
 ```
