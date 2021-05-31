@@ -29,6 +29,8 @@ To add a feature to the website first create and checkout a new branch using the
 feat/{your_feature_name}
 
 ```
+
+```
 $ git branch -b feat/{your_feature_name}
 ```
 
@@ -47,9 +49,22 @@ $ git commit -m "{Your commit message here}"
 Finally push the feature branch to github by entering
 
 ```
-$ git push
+$ git push --set-upstream origin feat/{your_feature_name}
 ```
 and following the directions there.
 
 Following this proceed to merge the branch on Github, the administrator will then review your merge request and approve or deny.
+
+After the branch has been merged you can checkout the master branch again and update it
+
+```
+$ git checkout master
+$ git pull
+```
+
+Finally, you can delete your local copy of the feature branch if you are finished working on it
+
+```
+git branch -d feat/{your_feature_name}
+```
 
