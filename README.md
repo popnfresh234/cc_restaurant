@@ -65,6 +65,33 @@ $ git pull
 Finally, you can delete your local copy of the feature branch if you are finished working on it
 
 ```
-git branch -d feat/{your_feature_name}
+$ git branch -d feat/{your_feature_name}
 ```
 
+The process for fixes is similar, naming convention for a fix branch is as follows:
+
+```
+fix/{fix_name}
+```
+
+The process looks like the following:
+
+```
+$ git checkout -b fix/{fix_name}
+```
+
+Make necessary fixes to code, then:
+
+```
+$ git add .
+$ git commit -m "{your commit message}"
+$ git push --set-upstream origin fix/{fix_name}
+```
+
+Make a merge request on Github, after it is approved and merged to master you can update local master and delete local fix branch:
+
+```
+$ git checkout master
+$ git pull
+$ git branch -d fix/{fix_name}
+```
