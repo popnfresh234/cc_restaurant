@@ -4,7 +4,7 @@
 Clone the repository to your local machine by running
 
 ```
-$ git clone https://github.com/popnfresh234/2d_orrery.git
+$ git clone https://github.com/popnfresh234/cc_restaurant.git
 ```
 
 Next, install the required Node modules by running
