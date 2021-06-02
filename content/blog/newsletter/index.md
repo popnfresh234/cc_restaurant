@@ -1,7 +1,7 @@
 ---
 title: CC's Newsletter!
 featuredImage: newsletter.webp
-date: 2015-05-01T22:12:03.284Z
+date: 2021-05-01T22:12:00.000Z
 description: Subscribe to CCs Newsletter and get 15% off!
 ---
 
