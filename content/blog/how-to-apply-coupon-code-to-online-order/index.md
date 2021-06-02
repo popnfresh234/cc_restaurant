@@ -1,7 +1,7 @@
 ---
 title: How to apply coupon code on the online order?
 featuredImage: deepfriedwonton.jpg
-date: 2021-06-02T05:24:22.849Z
+date: 2021-05-02T07:23:00.000Z
 description: Please refer to the instruction below on how to apply the coupon
   code when making an online order.
 ---
