@@ -1,6 +1,6 @@
 ---
 title: Instruction for Bowen Delivery
-featuredImage: deepcove.jpg
+featuredImage: kungpaochicken.png
 date: 2021-05-26T23:25:31.389Z
 description: Instructions on how to leave a note
 ---
