@@ -1,163 +1,163 @@
 code,english,chinese,old_price,price
-a00,APPETIZERS,é–‹èƒƒå°é»,,
-a01,Bar-B-Q Pork,å‰ç‡’,995,1095
-a02,Deep Fried Wonton,ç‚¸é›²å,850,950
-a03,Deep Fried Drumsticks,é…¥ç‚¸æ£’æ£’é›è…¿,995,1095
-a04,Chefâ€™s Special Deep Fried Chicken Wings,ç§˜è£½ç‚¸é›ç¿¼,995,1095
-a05,Lettuce Wrap with Minced Beef,ç‰›è‚‰ç”ŸèœåŒ…,1795,1995
-a08,Lettuce Wrap with Minced Chicken,é›è‚‰ç”ŸèœåŒ…,1795,1995
-a09,Lettuce Wrap with Minced Duck,é´¨è‚‰ç”ŸèœåŒ…,1795,1995
-a06,Spring Roll,æ˜¥å·,250,275
-a07,Pot Stickers 10 pcs,é‹è²¼,1050,1150
-a10,Chinese Sausage,è‡˜è…¸,995,1095
-b00,SOUPSã€‚SOUP NOODLE,æ¹¯å“ã€‚æ¹¯éºµ,,
-b01,Wonton Soup,é›²åæ¹¯,850,950
-b02,Wor Wonton (15 pieces),çª©é›²å,1650,1795
-b03,Beef and Lettuce with Egg Swirl Soup,è¥¿æ¹–ç‰›è‚‰æ¹¯,1050,1150
-b04,Corn Soup,ç²Ÿç±³æ¹¯,1050,1150
-b05,Hot n Sour Soup,é…¸è¾£æ¹¯,1050,1150
-b06,Mushroom and Egg Swirl Soup,è˜‘è‡è›‹èŠ±æ¹¯,950,1050
-b07,Beef and Tomato Swirl Soup,ç‰›è‚‰è•ƒèŒ„æ¹¯,1050,1150
-b08,Wonton Soup Noodle,é›²åéºµ,950,1050
-b09,Beef Ball Soup Noodle,ç‰›ä¸¸æ¹¯éºµ,950,1050
-b10,Fish Ball Soup Noodle,é­šæ—¦æ¹¯éºµ,950,1050
-b11,Pea And Egg Swirl Soup,ä¸•è±†è›‹èŠ±æ¹¯,950,1050
-b12,Seafood and Bean Cake Soup,æµ·é®®è±†è…æ¹¯,1200,1295
-b13,Hot Chili Tomato Soup,è•ƒèŒ„é…¸è¾£æ¹¯,1050,1150
-c00,CHICKEN,é›è‚‰,,
-c01,Cashew Chicken,è…°æœé›ä¸,1495,1650
-c02,Kung Pao Chicken,å®®ä¿é›ä¸,1495,1650
-c03,Black Bean Chicken,è±†è±‰é›ä¸,1495,1650
-c04,Lemon Chicken,æª¸æª¬é…¥é›,1595,1795
-c05,Sweet and Sour Chicken Balls with Pineapple,ç”œé…¸é›çƒ,1595,1795
-c06,Pan Fried Chicken Slice with Curry Sauce,å’–å–±é›ç‰‡,1495,1650
-c07,Fried Chicken with Garlic Salt and Chili Pepper,æ¤’é¹½é…¥é›,1495,1650
-c08,Diced Chicken with Almond,æä»é›ä¸,1495,1650
-c09,Breaded Almond Chicken,æä»é…¥é›,1595,1795
-c10,Breaded Chicken with Pineapples,è è˜¿é…¥é›,1595,1795
-c11,Pan Fired Chicken with Snow Peas,é›ªè±†é›ç‰‡,1695,1895
-c12,Pan Fried Chicken with Three Kinds of Mushroom, ä¸‰è‡é›ç‰‡,1495,1650
-c13,Chicken Hot Pot,é›è‚‰ç…²,1695,1895
-c14,General Tsoâ€™s Chicken,,,
-d01,BBQ Duck Whole Duck,ç‰‡çš®é´¨,3600,4000
-d02,BBQ Duck Half Duck,ç‰‡çš®é´¨,2000,2200
-e00,BEEF,ç‰›è‚‰,,
-e01,Beef with Broccoli,ç™¾åŠ åˆ©ç‰›è‚‰,1495,1795
-e02,Ginger Beef (Hot),é¦™è¾£ç‰›è‚‰çµ²,1795,1995
-e03,Black Bean Beef with Green Beans,è±‰æ±ç‰›è‚‰è±†ä»”,1495,1795
-e04,Sliced Beef in Curry Sauce,å’–å–±ç‰›è‚‰,1595,1795
-e05,Sliced Beef with Snow Peas,é›ªè±†ç‰›è‚‰,1695,1895
-e06,Szechun Beef,å››å·ç‰›è‚‰,1695,1895
-e07,Sliced Beef in Black Bean Sauce,è±‰æ±ç‰›è‚‰,1595,1795
-e08,Sliced Beef in Satay Sauce,æ²™çˆ¹ç‰›è‚‰,1595,1795
-e09,Sliced Beef with Three Kinds of Mushrooms,ä¸‰è‡ç‰›è‚‰,1695,1895
-e10,Sliced Beef with Tomatoes,è•ƒèŒ„ç‰›è‚‰,1695,1895
-e11,Sliced Beef Hot Pot,ç‰›è‚‰ç…²,1795,1995
-e12,Sliced Beef Hot Pot with Lily Flower and Cloud Fungus,é‡‘é‡é›²è€³ç‰›è‚‰ç…²,,2150
-f00,PORK,è±¬è‚‰,,
-f02,BBQ Pork with Tofu and Oyster Sauce,å‰ç‡’è±†è…,1595,1795
-f03,Sweet n Sour Pork,ç”œé…¸å’•åš•è‚‰,1595,1795
-f04,Deep Fried Garlic Pork,è’œå­è‚‰,1595,1795
-f05,Boneless Pork with Honey and Garlic Sauce,è’œå­èœœç³–è±¬è‚‰,1595,1795
-f06,Bean Cake with Spicy Meat Sauce,éº»å©†è±†è…,1495,1650
-h00,SEAFOOD,æµ·é®®,,
-h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,ç”œé…¸é­šçƒ,1595,1795
-h02,Sliced Fish with Mixed Greens,æ™‚èœé­šç‰‡,1595,1795
-h03,Fried Fish with Garlic Salt and Chili Pepper,æ¤’é¹½é­šæŸ³,1695,1895
-h04,Fish Slices with Three Kinds of Mushrooms,ä¸‰è‡é­šç‰‡,1595,1795
-h05,Prawns and Broccoli with Black Bean Sauce,è±‰æ±è¦çƒç™¾åŠ åˆ©,1950,2150
-h06,Kung Pao Prawns,å®®ä¿è¦ä¸,1950,2150
-h07,Sweet and Sour Breaded Deep Fried Prawns,ç”œé…¸è¦çƒ,1950,2150
-h08,Deep Fried Prawns,ç‚¸è¦çƒ,1850,2050
-h09,Prawns in Curry Sauce,å’–å–±è¦çƒ,1950,2150
-h10,Prawns with Garlic Salt n Chili Pepper,æ¤’é¹½è¦çƒ,1950,2150
-h11,Prawns with Snow Peas,è¦çƒé›ªè±†,1950,2150
-h12,Prawns with Mixed Greens,æ™‚èœè¦çƒ,1950,2150
-h13,Prawns with Three Kinds of Mushrooms,ä¸‰è‡è¦çƒ,1950,2150
-h14,Fried Squid with Garlic Salt and Chili Pepper,æ¤’é¹½é®®é­·,1950,2150
-h15,Squid in Black Bean Sauce,è±‰æ±é®®é­·,1750,1950
-h16,Fish Balls in Curry Sauce,å’–å–±é­šæ—¦,1495,1650
-h17,Cream of Corn with Rock Cod,ç²Ÿç±³æ–‘å¡Š,,2150
-h18,Tomato Sauce with Rock CodÂ ,èŒ„æ±æ–‘å¡Š,,2150
-j00,TOFU ã€‚ EGGSã€‚VEGETABLES,è±†è…ã€‚è›‹ã€‚è”¬èœ,,
-j01,Pork Egg Foo Young,å‰ç‡’èŠ™è“‰è›‹,1350,1495
-j02,Mushrooms Egg Foo Young,è˜‘è‡èŠ™è“‰è›‹,1350,1495
-j03,Prawns Egg Foo Young,è¦èŠ™è“‰è›‹,1450,1595
-j04,Braised Tofu,ç´…ç‡’è±†è…,1395,1550
-j05,Garlic Salt & Chilli Pepper Deep Fried Tofu,æ¤’é¹½è±†è…,1395,1550
-j06,Eggplant with Hot Meat Sauce,é­šé¦™èŒ„å­,1395,1550
-j07,Deluxe Veggie,æ‹›ç‰Œæ™‚èœ,1395,1550
-j08,Spicy Green Beans,è¾£è±†ä»”,1395,1550
-j09,Garlic Fried Broccoli,è’œç‚’ç™¾åŠ åˆ©,1395,1550
-j10,Chinese Mushroon & Broccoli with Black Bean Sauce,å†¬è‡æ‰’ç™¾åŠ åˆ©,1495,1650
-j11,BBQ Pork Chop Suey,å‰ç‡’é›œç¢,1395,1550
-j12,Beef Chop Suey,ç‰›è‚‰é›œç¢,1395,1550
-j13,Chicken Chop Suey,é›è‚‰é›œç¢,1395,1550
-j14,Seafood Chop Suey,æµ·é®®é›œç¢,1595,1795
-j15,House Special Chop Suey,æ‹›ç‰Œé›œç¢,1595,1795
-j16,Szechun Dry Fried Green Beans,ä¹¾ç…¸å››å­£è±†,1495,1650
-j17,Mushroom Chop Suey,è˜‘è‡é›œç¢,1295,1450
-j18,Plain Chop Suey,æ·¨é›œé›œç¢,1295,1450
-j19,Prawn Chop Suey,è¦ä»é›œç¢,1595,1795
-j20,Buddha's Delight,ç¾…æ¼¢é½‹,1795,1995
-j21,Garlic Salt and Chili Pepper Deep Fried Cauliflower (Hot),æ¤’é¹½èŠ±èœ,,1495
-j22,Sweet and Sour Cauliflower with Pineapple,ç”œé…¸èŠ±èœ,,1495
-j23,Green Beans with Spicy Minced Meat Sauce,ç‚¸é†¬è±†ä»”(è¾£),,1650
-k00,CHOW MEIN ã€‚ FRIED RICE,é£¯ã€‚éºµ,,
-k01,Chicken Fried Rice,é›è‚‰ç‚’é£¯,1295,1350
-k02,Prawns Fried Rice,è¦ä»ç‚’é£¯,1395,1450
-k03,Vegetable Fried Rice,æ™‚èœç‚’é£¯,1295,1350
-k04,Beef Fried Rice,ç‰›è‚‰ç‚’é£¯,1495,1550
-k05,House Young Chow Fried Rice,æ‹›ç‰Œæšå·ç‚’é£¯,1495,1550
-k06,Chicken Chow Mein,é›çµ²ç‚’éºµ,1295,1350
-k07,Beef Chow Mein,ç‰›è‚‰ç‚’éºµ,1495,1550
-k08,Seafood Chow Mein,æµ·é®®ç‚’éºµ,1495,1550
-k09,This and That Chow Mein,æ‹›ç‰Œç‚’éºµ,1495,1550
-k10,Vegetable Chow Mein,æ™‚èœç‚’éºµ,1295,1350
-k11,Prawns Chow Mein,è¦ä»ç‚’éºµ,1495,1550
-k12,Singapore Style Chow Fun (Rice Vermicelli) with Curry,æ˜Ÿæ´²ç‚’ç±³ç²‰,1395,1450
-k13,House Chow Fun (Rice Vermicelli),æ‹›ç‰Œç‚’ç±³ç²‰,1495,1550
-k14,Beef and Tomato Fried Rice,è•ƒèŒ„ç‰›è‚‰ç‚’é£¯,1495,1550
-k15,Beef N Tomato Chow Mein,è•ƒèŒ„ç‰›è‚‰ç‚’éºµ,1495,1550
-k16,Shanghai Style Noodles with Pork,ä¸Šæµ·ç‚’éºµ,1395,1450
-k17,BBQ Pork Fried Rice,å‰ç‡’ç‚’é£¯,1295,1350
-k18,BBQ Pork Chow Mein,å‰ç‡’ç‚’éºµ,1295,1350
-k19,Noodles With Spicy Minced Meat Sauce,ç‚¸é†¬éºµ,1295,1350
-k20,Chicken Lo Mein,é›è‚‰æ’ˆéºµ,1295,1350
-k21,Beef Lo Mein,ç‰›è‚‰æ’ˆéºµ,1495,1550
-k22,Seafood Lo Mein,æµ·é®®æ’ˆéºµ,1495,1550
-k23,House Lo Mein,æ‹›ç‰Œæ’ˆéºµ,1495,1550
-k24,Prawns Lo Mein,è¦çƒæ’ˆéºµ,1495,1550
-k25,BBQ Pork Lo Mein,å‰ç‡’æ’ˆéºµ,1295,1350
-k26,Plain Chow Mein,æ·¨ç‚’éºµ,1195,1250
-k27,Steam Rice,ç™½é£¯,295,350
-k29,Plain Egg Fried Rice,æ·¨è›‹ç‚’é£¯,1195,1250
-k30,Three kinds of Mushrooms Chow Mein,ä¸‰è‡ç‚’éºµ,1295,1350
-k31,Button Style Mushroom Chow Mein,è˜‘è‡ç‚’éºµ,1295,1350
-k32,Beef Chow Fun (Thick Rice Noodle),å¹²ç‚’ç‰›æ²³,1495,1550
-k33,Half & Half Fried Rice,é´›é´¦ç‚’é£¯,1695,1750
-l01,Breaded Deep Fried Banana,ç‚¸é¦™è•‰,995,1095
-l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,é…¥ç‚¸ç”œé…¸è”æ,995,1095
-m00,NEW DISHES FROM DRUNKEN MONKEY,é†‰æ‚Ÿç©ºæ–°èœæ¨è–¦,,
-m01,3 Cups Tofu,ä¸‰æ¯è±†è…,1050,1195
-m03,3 Cups Chicken,ä¸‰æ¯é›ä¸,1450,1595
-m11,Scramble Eggs With Prawns,æ»‘è›‹è¦ä»,1695,1895
-m12,Taiwan Style Deep Fried Prawns with Pineapples,é³³æ¢¨è¦çƒ,1395,1550
-m14,Wrinkly Old Man Tofu,è€çš®å«©è‚‰,995,1095
-m15,TW Beautiful Veggie with Beef,ç‰›è‚‰é«˜éº—èœ,1595,1795
-m17,Kung Pao TW Beautiful Veggie,å®®ä¿é«˜éº—èœ,1495,1650
-m18,Garlic Fried TW Beautiful Veggie,è’œç‚’é«˜éº—èœ,1395,1550
-m20,Kung Pao Eggplants,å®®ä¿èŒ„å­,1395,1550
-m21,Braised Eggplants,ç´…ç‡’èŒ„å­,1395,1550
-m23,Green Beans 'n Eggs with Minced Pork,å››å­£è±†ç‚’è›‹,1495,1650
-p01,Steamed Glutinous Rice with Chicken,ç³¯ç±³é›,,
-p02,Steamed Glutinous Rice with Duck,ç³¯ç±³é´¨,,
+a00,APPETIZERS,¶}­G¤pÂI,,
+a01,Bar-B-Q Pork,¤e¿N,995,1095
+a02,Deep Fried Wonton,¬µ¶³§],850,950
+a03,Deep Fried Drumsticks,¶p¬µ´Î´ÎÂû»L,995,1095
+a04,Chef¡¦s Special Deep Fried Chicken Wings,¯µ»s¬µÂûÁl,995,1095
+a05,Lettuce Wrap with Minced Beef,¤û¦×¥Íµæ¥],1795,1995
+a08,Lettuce Wrap with Minced Chicken,Âû¦×¥Íµæ¥],1795,1995
+a09,Lettuce Wrap with Minced Duck,Àn¦×¥Íµæ¥],1795,1995
+a06,Spring Roll,¬K¨÷,250,275
+a07,Pot Stickers 10 pcs,Áç¶K,1050,1150
+a10,Chinese Sausage,Ã¾¸z,995,1095
+b00,SOUPS¡CSOUP NOODLE,´ö«~¡C´öÄÑ,,
+b01,Wonton Soup,¶³§]´ö,850,950
+b02,Wor Wonton (15 pieces),ºÛ¶³§],1650,1795
+b03,Beef and Lettuce with Egg Swirl Soup,¦è´ò¤û¦×´ö,1050,1150
+b04,Corn Soup,µ¯¦Ì´ö,1050,1150
+b05,Hot n Sour Soup,»Ä»¶´ö,1050,1150
+b06,Mushroom and Egg Swirl Soup,Ä¨Û£³Jªá´ö,950,1050
+b07,Beef and Tomato Swirl Soup,¤û¦×¿»­X´ö,1050,1150
+b08,Wonton Soup Noodle,¶³§]ÄÑ,950,1050
+b09,Beef Ball Soup Noodle,¤û¤Y´öÄÑ,950,1050
+b10,Fish Ball Soup Noodle,³½¥¹´öÄÑ,950,1050
+b11,Pea And Egg Swirl Soup,¥A¨§³Jªá´ö,950,1050
+b12,Seafood and Bean Cake Soup,®üÂA¨§»G´ö,1200,1295
+b13,Hot Chili Tomato Soup,¿»­X»Ä»¶´ö,1050,1150
+c00,CHICKEN,Âû¦×,,
+c01,Cashew Chicken,¸yªGÂû¤B,1495,1650
+c02,Kung Pao Chicken,®c«OÂû¤B,1495,1650
+c03,Black Bean Chicken,¨§³aÂû¤B,1495,1650
+c04,Lemon Chicken,ÂfÂc¶pÂû,1595,1795
+c05,Sweet and Sour Chicken Balls with Pineapple,²¢»ÄÂû²y,1595,1795
+c06,Pan Fried Chicken Slice with Curry Sauce,©@³íÂû¤ù,1495,1650
+c07,Fried Chicken with Garlic Salt and Chili Pepper,´ÔÆQ¶pÂû,1495,1650
+c08,Diced Chicken with Almond,§ö¤¯Âû¤B,1495,1650
+c09,Breaded Almond Chicken,§ö¤¯¶pÂû,1595,1795
+c10,Breaded Chicken with Pineapples,µÔÅÚ¶pÂû,1595,1795
+c11,Pan Fired Chicken with Snow Peas,³·¨§Âû¤ù,1695,1895
+c12,Pan Fried Chicken with Three Kinds of Mushroom, ¤TÛ£Âû¤ù,1495,1650
+c13,Chicken Hot Pot,Âû¦×Şs,1695,1895
+c14,General Tso¡¦s Chicken,¥ª©v´ÅÂû,,2150
+d01,BBQ Duck Whole Duck,¤ù¥ÖÀn,3600,4000
+d02,BBQ Duck Half Duck,¤ù¥ÖÀn,2000,2200
+e00,BEEF,¤û¦×,,
+e01,Beef with Broccoli,¦Ê¥[§Q¤û¦×,1495,1795
+e02,Ginger Beef (Hot),­»»¶¤û¦×µ·,1795,1995
+e03,Black Bean Beef with Green Beans,³a¥Ä¤û¦×¨§¥J,1495,1795
+e04,Sliced Beef in Curry Sauce,©@³í¤û¦×,1595,1795
+e05,Sliced Beef with Snow Peas,³·¨§¤û¦×,1695,1895
+e06,Szechun Beef,¥|¤t¤û¦×,1695,1895
+e07,Sliced Beef in Black Bean Sauce,³a¥Ä¤û¦×,1595,1795
+e08,Sliced Beef in Satay Sauce,¨F¯R¤û¦×,1595,1795
+e09,Sliced Beef with Three Kinds of Mushrooms,¤TÛ£¤û¦×,1695,1895
+e10,Sliced Beef with Tomatoes,¿»­X¤û¦×,1695,1895
+e11,Sliced Beef Hot Pot,¤û¦×Şs,1795,1995
+e12,Sliced Beef Hot Pot with Lily Flower and Cloud Fungus,ª÷°w¶³¦Õ¤û¦×Şs,,2150
+f00,PORK,½Ş¦×,,
+f02,BBQ Pork with Tofu and Oyster Sauce,¤e¿N¨§»G,1595,1795
+f03,Sweet n Sour Pork,²¢»Ä©BÂP¦×,1595,1795
+f04,Deep Fried Garlic Pork,»[¤l¦×,1595,1795
+f05,Boneless Pork with Honey and Garlic Sauce,»[¤l»e¿}½Ş¦×,1595,1795
+f06,Bean Cake with Spicy Meat Sauce,³Â±C¨§»G,1495,1650
+h00,SEAFOOD,®üÂA,,
+h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,²¢»Ä³½²y,1595,1795
+h02,Sliced Fish with Mixed Greens,®Éµæ³½¤ù,1595,1795
+h03,Fried Fish with Garlic Salt and Chili Pepper,´ÔÆQ³½¬h,1695,1895
+h04,Fish Slices with Three Kinds of Mushrooms,¤TÛ£³½¤ù,1595,1795
+h05,Prawns and Broccoli with Black Bean Sauce,³a¥Ä½¼²y¦Ê¥[§Q,1950,2150
+h06,Kung Pao Prawns,®c«O½¼¤B,1950,2150
+h07,Sweet and Sour Breaded Deep Fried Prawns,²¢»Ä½¼²y,1950,2150
+h08,Deep Fried Prawns,¬µ½¼²y,1850,2050
+h09,Prawns in Curry Sauce,©@³í½¼²y,1950,2150
+h10,Prawns with Garlic Salt n Chili Pepper,´ÔÆQ½¼²y,1950,2150
+h11,Prawns with Snow Peas,½¼²y³·¨§,1950,2150
+h12,Prawns with Mixed Greens,®Éµæ½¼²y,1950,2150
+h13,Prawns with Three Kinds of Mushrooms,¤TÛ£½¼²y,1950,2150
+h14,Fried Squid with Garlic Salt and Chili Pepper,´ÔÆQÂA¾{,1950,2150
+h15,Squid in Black Bean Sauce,³a¥ÄÂA¾{,1750,1950
+h16,Fish Balls in Curry Sauce,©@³í³½¥¹,1495,1650
+h17,Cream of Corn with Rock Cod,µ¯¦Ì´³¶ô,,2150
+h18,Tomato Sauce with Rock Cod?,­X¥Ä´³¶ô,,2150
+j00,TOFU ¡C EGGS¡CVEGETABLES,¨§»G¡C³J¡C½­µæ,,
+j01,Pork Egg Foo Young,¤e¿NªÜ»T³J,1350,1495
+j02,Mushrooms Egg Foo Young,Ä¨Û£ªÜ»T³J,1350,1495
+j03,Prawns Egg Foo Young,½¼ªÜ»T³J,1450,1595
+j04,Braised Tofu,¬õ¿N¨§»G,1395,1550
+j05,Garlic Salt & Chilli Pepper Deep Fried Tofu,´ÔÆQ¨§»G,1395,1550
+j06,Eggplant with Hot Meat Sauce,³½­»­X¤l,1395,1550
+j07,Deluxe Veggie,©ÛµP®Éµæ,1395,1550
+j08,Spicy Green Beans,»¶¨§¥J,1395,1550
+j09,Garlic Fried Broccoli,»[ª£¦Ê¥[§Q,1395,1550
+j10,Chinese Mushroon & Broccoli with Black Bean Sauce,¥VÛ£¥¶¦Ê¥[§Q,1495,1650
+j11,BBQ Pork Chop Suey,¤e¿NÂø¸H,1395,1550
+j12,Beef Chop Suey,¤û¦×Âø¸H,1395,1550
+j13,Chicken Chop Suey,Âû¦×Âø¸H,1395,1550
+j14,Seafood Chop Suey,®üÂAÂø¸H,1595,1795
+j15,House Special Chop Suey,©ÛµPÂø¸H,1595,1795
+j16,Szechun Dry Fried Green Beans,°®Şt¥|©u¨§,1495,1650
+j17,Mushroom Chop Suey,Ä¨Û£Âø¸H,1295,1450
+j18,Plain Chop Suey,²bÂøÂø¸H,1295,1450
+j19,Prawn Chop Suey,½¼¤¯Âø¸H,1595,1795
+j20,Buddha's Delight,Ã¹º~ÂN,1795,1995
+j21,Garlic Salt and Chili Pepper Deep Fried Cauliflower (Hot),´ÔÆQªáµæ,,1495
+j22,Sweet and Sour Cauliflower with Pineapple,²¢»Äªáµæ,,1495
+j23,Green Beans with Spicy Minced Meat Sauce,¬µÂæ¨§¥J(»¶),,1650
+k00,CHOW MEIN ¡C FRIED RICE,¶º¡CÄÑ,,
+k01,Chicken Fried Rice,Âû¦×ª£¶º,1295,1350
+k02,Prawns Fried Rice,½¼¤¯ª£¶º,1395,1450
+k03,Vegetable Fried Rice,®Éµæª£¶º,1295,1350
+k04,Beef Fried Rice,¤û¦×ª£¶º,1495,1550
+k05,House Young Chow Fried Rice,©ÛµP´­¦{ª£¶º,1495,1550
+k06,Chicken Chow Mein,Âûµ·ª£ÄÑ,1295,1350
+k07,Beef Chow Mein,¤û¦×ª£ÄÑ,1495,1550
+k08,Seafood Chow Mein,®üÂAª£ÄÑ,1495,1550
+k09,This and That Chow Mein,©ÛµPª£ÄÑ,1495,1550
+k10,Vegetable Chow Mein,®Éµæª£ÄÑ,1295,1350
+k11,Prawns Chow Mein,½¼¤¯ª£ÄÑ,1495,1550
+k12,Singapore Style Chow Fun (Rice Vermicelli) with Curry,¬P¬wª£¦Ì¯»,1395,1450
+k13,House Chow Fun (Rice Vermicelli),©ÛµPª£¦Ì¯»,1495,1550
+k14,Beef and Tomato Fried Rice,¿»­X¤û¦×ª£¶º,1495,1550
+k15,Beef N Tomato Chow Mein,¿»­X¤û¦×ª£ÄÑ,1495,1550
+k16,Shanghai Style Noodles with Pork,¤W®üª£ÄÑ,1395,1450
+k17,BBQ Pork Fried Rice,¤e¿Nª£¶º,1295,1350
+k18,BBQ Pork Chow Mein,¤e¿Nª£ÄÑ,1295,1350
+k19,Noodles With Spicy Minced Meat Sauce,¬µÂæÄÑ,1295,1350
+k20,Chicken Lo Mein,Âû¦×¼´ÄÑ,1295,1350
+k21,Beef Lo Mein,¤û¦×¼´ÄÑ,1495,1550
+k22,Seafood Lo Mein,®üÂA¼´ÄÑ,1495,1550
+k23,House Lo Mein,©ÛµP¼´ÄÑ,1495,1550
+k24,Prawns Lo Mein,½¼²y¼´ÄÑ,1495,1550
+k25,BBQ Pork Lo Mein,¤e¿N¼´ÄÑ,1295,1350
+k26,Plain Chow Mein,²bª£ÄÑ,1195,1250
+k27,Steam Rice,¥Õ¶º,295,325
+k29,Plain Egg Fried Rice,²b³Jª£¶º,1195,1250
+k30,Three kinds of Mushrooms Chow Mein,¤TÛ£ª£ÄÑ,1295,1350
+k31,Button Style Mushroom Chow Mein,Ä¨Û£ª£ÄÑ,1295,1350
+k32,Beef Chow Fun (Thick Rice Noodle),¤zª£¤ûªe,1495,1550
+k33,Half & Half Fried Rice,ÀpÀmª£¶º,1695,1750
+l01,Breaded Deep Fried Banana,¬µ­»¿¼,995,1095
+l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,¶p¬µ²¢»Ä¯ïªK,995,1095
+m00,NEW DISHES FROM DRUNKEN MONKEY,¾K®©ªÅ·sµæ±ÀÂË,,
+m01,3 Cups Tofu,¤TªM¨§»G,1050,1150
+m03,3 Cups Chicken,¤TªMÂû¤B,1450,1595
+m11,Scramble Eggs With Prawns,·Æ³J½¼¤¯,1695,1850
+m12,Taiwan Style Deep Fried Prawns with Pineapples,»ñ±ù½¼²y,1395,1550
+m14,Wrinkly Old Man Tofu,¦Ñ¥Ö¹à¦×,995,1095
+m15,TW Beautiful Veggie with Beef,¤û¦×°ªÄRµæ,1595,1795
+m17,Kung Pao TW Beautiful Veggie,®c«O°ªÄRµæ,1495,1650
+m18,Garlic Fried TW Beautiful Veggie,»[ª£°ªÄRµæ,1395,1550
+m20,Kung Pao Eggplants,®c«O­X¤l,1395,1550
+m21,Braised Eggplants,¬õ¿N­X¤l,1395,1550
+m23,Green Beans 'n Eggs with Minced Pork,¥|©u¨§ª£³J,1495,1650
+p01,Steamed Glutinous Rice with Chicken,Äz¦ÌÂû,,
+p02,Steamed Glutinous Rice with Duck,Äz¦ÌÀn,,
 u10,Bubble Passionfruit Tea,,,
-w00,FROZEN FOODS,å†·å‡,,
-w01,Frozen Hot and Sour Soup,é…¸è¾£æ¹¯ (å†·å‡),,
-w02,Frozen Chicken Chow Mein,é›çµ²ç‚’éºµ (å†·å‡),,
-w03,Frozen House Fried Rice,æšå·ç‚’é£¯ (å†·å‡),,
-w05,Frozen Creamy Curry Chicken,å’–å“©é›è‚‰ (å†·å‡),,
-w08,Frozen Sweet and Sour Pork,ç”œé…¸å’•åš•è‚‰ (å†·å‡),,
-w11,Frozen Vegetable Fried Rice,æ™‚èœç‚’é£¯ (å†·å‡),,
-w12,Frozen Vegetable Chow Mein, æ™‚èœç‚’éºµ (å†·å‡),,
+w00,FROZEN FOODS,§N­á,,
+w01,Frozen Hot and Sour Soup,»Ä»¶´ö (§N­á),895,995
+w02,Frozen Chicken Chow Mein,Âûµ·ª£ÄÑ (§N­á),995,1095
+w03,Frozen House Fried Rice,´­¦{ª£¶º (§N­á),1095,1195
+w05,Frozen Creamy Curry Chicken,©@­ùÂû¦× (§N­á),,
+w08,Frozen Sweet and Sour Pork,²¢»Ä©BÂP¦× (§N­á),1295,1395
+w11,Frozen Vegetable Fried Rice,®Éµæª£¶º (§N­á),895,995
+w12,Frozen Vegetable Chow Mein, ®Éµæª£ÄÑ (§N­á),895,995
