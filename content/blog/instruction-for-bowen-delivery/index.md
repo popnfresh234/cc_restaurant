@@ -39,7 +39,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image -->
 
-![2020-04-26_1049.png](cart.png)
+![2020-04-26_1049.png](cart.png "2. Click on the shopping cart on the top right")
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28699,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](checkout.png)
+![](checkout.png " Click on “**Checkout**“")
 
 <!-- /wp:image -->
 
@@ -63,7 +63,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28700,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](schedule.png "schedule")
+![](schedule.png "4. choose \"**Schedule for later**\", click on the drop down menu to choose the date of the delivery and choose 3pm .")
 
 <!-- /wp:image -->
 
@@ -75,7 +75,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28701,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](note.png "note")
+![](note.png "leave the \"**SPECIAL BOWEN DELIVERY**\" note in the input field")
 
 <!-- /wp:image -->
 
