@@ -39,7 +39,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image -->
 
-![2020-04-26_1049.png](https://drive.google.com/file/d/14oHzBgjBfmu8xqQWbHvLJYJehK8_cCiX/view)
+![2020-04-26_1049.png](cart.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28699,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](https://drive.google.com/file/d/12Ua5lTd86w8EZvVP0896uaWY_zjYj11L/view?usp=drivesdk)
+![](checkout.png)
 
 <!-- /wp:image -->
 
@@ -63,7 +63,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28700,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](https://drive.google.com/file/d/1x_S3vlbwvivS9ZEs6ryDssH5qpIQ5GTI/view?usp=drivesdk "schedule")
+![](schedule.png "schedule")
 
 <!-- /wp:image -->
 
@@ -75,7 +75,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28701,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](https://drive.google.com/file/d/1aUy0B6S_8hDZ1zWaFFqPiPvjRhlGT0zQ/view?usp=drivesdk "note")
+![](note.png "note")
 
 <!-- /wp:image -->
 
