@@ -27,7 +27,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 <!-- wp:paragraph -->
 
 1. Pick and choose your items on our online store.\
-<https://ccs-chinese-restaurant-online-order.square.site/>
+   <https://ccs-chinese-restaurant-online-order.square.site/>
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image -->
 
-![2020-04-26_1049.png](https://capheights.ca/wp-content/uploads/2020/10/2020-04-26_1049.png)
+![2020-04-26_1049.png](https://drive.google.com/file/d/14oHzBgjBfmu8xqQWbHvLJYJehK8_cCiX/view?usp=drivesdk)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:image {"id":28699,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](https://capheights.ca/wp-content/uploads/2021/02/nXFvgTFP8a-1024x546.png)
+![](https://drive.google.com/file/d/12Ua5lTd86w8EZvVP0896uaWY_zjYj11L/view?usp=drivesdk)
 
 <!-- /wp:image -->
 
