@@ -57,7 +57,9 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:paragraph -->
 
-4. Click on the default pick up time, and a "Change Order Time" window will pop up. Click on "Yes, change time button. "
+4. Click on the default pick up time, and a "Change Order Time" window will pop up. 
+
+   Click on "Yes, change time button. "
 
 <!-- /wp:paragraph -->
 
@@ -65,23 +67,33 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 ![](chrome_laoqdycu1n.png "Click on the default pick up time")
 
-![](chrome_rcqwhdskcr.png "\"Change Order Time\" window pops up and Click on \"Yes, change time button. \"")
+![](chrome_rcqwhdskcr.png "\\"Change Order Time\\" window pops up and Click on \\"Yes, change time button. \\"")
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-5. Click to choose the date of the delivery and roll down to choose 3pm . Click the  "change (mmm. dd (3:00pm.)" button
+5. Click to choose the date of the delivery and roll down to choose 3pm . 
 
-![](chrome_ajsrfxgstk.png "Select the date of the delivery and select 3pm (or anytime from 3 to 5pm), and then click the \"change  (mmm. dd (3:00pm.)\" button.")
+   Click the  "change (mmm. dd (3:00pm.)" button.
 
-6. Fulfill your CONTACT and SECURE PAYMENT information. At the right column under your order items, click on "Add an order note". 
+   And Click on "Check out" again.
+
+![](chrome_ajsrfxgstk.png "Select the date of the delivery and select 3pm (or anytime from 3 to 5pm), and then click the \\"change  (mmm. dd (3:00pm.)\\" button.")
+
+![](chrome_rykmdvv77t.png "Click on \"Check out\" again.")
+
+
+
+6. Fulfill your CONTACT and SECURE PAYMENT information. 
+
+   At the right column under your order items, click on "Add an order note". 
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":28701,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](chrome_7nhuago0ds.png "At the right column under your order items, click on \"Add an order note\".")
+![](chrome_7nhuago0ds.png "At the right column under your order items, click on \\"Add an order note\\".")
 
 <!-- /wp:image -->
 
@@ -89,12 +101,10 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 7. Leave "**SPECIAL BOWEN DELIVERY**" in the input field and click on "save note" button.
 
-
-
 ![](chrome_jjmur8wgqp.png)
 
+8. Make sure you've selected the pick up time at 3pm on Saturday and with the "SPECIAL BOWEN DELIVERY" note added. 
 
-
-8.  Make sure you've selected the pick up time at 3pm on Saturday and with the "SPECIAL BOWEN DELIVERY" note added. Click on "Place Order" button and you're all set! :)
+   Click on "Place Order" button and you're all set! :)
 
 ![](sharex_fsft8zfsmb.png)
