@@ -101,10 +101,10 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 7. Leave "**SPECIAL BOWEN DELIVERY**" in the input field and click on "save note" button.
 
-![](chrome_jjmur8wgqp.png "7. Leave **SPECIAL BOWEN DELIVERY** in the input field and click on [save note] button.")
+![](chrome_jjmur8wgqp.png "Leave **SPECIAL BOWEN DELIVERY** in the input field and click on [save note] button.")
 
 8. Make sure you've selected the pick up time at 3pm on Saturday and with the "SPECIAL BOWEN DELIVERY" note added. 
 
    Click on "Place Order" button and you're all set! :)
 
-![](sharex_fsft8zfsmb.png "8. Click on [Place Order] button")
+![](sharex_fsft8zfsmb.png "Click on [Place Order] button")
