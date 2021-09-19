@@ -57,26 +57,44 @@ Please take a moment to read this post for instruction on how to leave a note as
 
 <!-- wp:paragraph -->
 
-4. At the second step "**STORE PICKUP**" after the first step "YOUR DETAIL", choose "**Schedule for later**", click on the drop down menu to choose the date of the delivery and choose 3pm .
+4. Click on the default pick up time, and a "Change Order Time" window will pop up. Click on "Yes, change time button. "
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":28700,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](schedule.png "Choose \"Schedule for later\", click on the drop down menu to choose the date of the delivery and choose 3pm")
+![](chrome_laoqdycu1n.png "Click on the default pick up time")
+
+![](chrome_rcqwhdskcr.png "\"Change Order Time\" window pops up and Click on \"Yes, change time button. \"")
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-5. Fulfill your information at the third step "PAYMENT INFORMATION" and leave the "**SPECIAL BOWEN DELIVERY**" note in the input field at the last step "**REVIEW & SUBMIT ORDER**".
+5. Click to choose the date of the delivery and roll down to choose 3pm . Click the  "change (mmm. dd (3:00pm.)" button
+
+![](chrome_ajsrfxgstk.png "Select the date of the delivery and select 3pm (or anytime from 3 to 5pm), and then click the \"change  (mmm. dd (3:00pm.)\" button.")
+
+6. Fulfill your CONTACT and SECURE PAYMENT information. At the right column under your order items, click on "Add an order note". 
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":28701,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](note.png "Leave the \"SPECIAL BOWEN DELIVERY\" note in the input field")
+![](chrome_7nhuago0ds.png "At the right column under your order items, click on \"Add an order note\".")
 
 <!-- /wp:image -->
 
 <!--EndFragment-->
+
+7. Leave "**SPECIAL BOWEN DELIVERY**" in the input field and click on "save note" button.
+
+
+
+![](chrome_jjmur8wgqp.png)
+
+
+
+8.  Make sure you've selected the pick up time at 3pm on Saturday and with the "SPECIAL BOWEN DELIVERY" note added. Click on "Place Order" button and you're all set! :)
+
+![](sharex_fsft8zfsmb.png)
