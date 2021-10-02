@@ -23,8 +23,6 @@ If you encouter difficulties when using our online ordering system, please take 
 
 [Q: How to opt in the FASTER CHECKOUT feature?](#faster-checkout)
 
-[Q: Why isn’t my faster checkout working?](faster-checkout-broken)
-
 [Q: How to schedule my pick up order for later?](#future-order)
 
 [Q: How to apply coupon code to online order?](#coupon)
@@ -34,7 +32,7 @@ If you encouter difficulties when using our online ordering system, please take 
 A : If you’re having difficulty check out at the last step when filling your telephone numbers, please uncheck the box saying “Save my information for a faster checkout”.
 And the process will go through.
 
-If you want to make the faster checkout work, please follos [these directions here](#faster-checkout)
+If you want to make the faster checkout work, please follow [these directions here](#faster-checkout)
 
 \####Q: ZIP CODE ? and POSTAL CODE? {#zip}
 A : We are using a third party system, SQUARE, which is a US based company. Therefore you will see quite a few default settings in US standard, such as asking for a ZIP CODE instead of a POSTAL CODE which we use in Canada.
@@ -76,6 +74,34 @@ You can always opt out this feature with the button shown here in the last step 
 ![](fast_checkout_03.webp "You can also opt out here")
 
 
+
+### Q: How to schedule my pick up order for later? {#future-order}
+
+1. Click on the default pick up time, and a "Change Order Time" window will pop up. 
+
+Click on "Yes, change time button. "
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":28700,"sizeSlug":"large","linkDestination":"none"} -->
+
+![](chrome_laoqdycu1n.png "Click on the default pick up time")
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+![](chrome_rcqwhdskcr.png "[Change Order Time] window pops up and Click on [Yes, change time] button.")
+
+2. Click to choose the date of the delivery and roll down to choose 3pm . 
+
+Click the  "change (mmm. dd (3:00pm.)" button.
+
+And Click on "Check out" again.
+
+![](chrome_ajsrfxgstk.png "Select the date of the delivery and select 3pm (or anytime from 3 to 5pm), and then click the [change  (mmm. dd (3:00pm.)] button.")
+
+![](chrome_rykmdvv77t.png "Click on [Check out] again.")
 
 ### Q: How to apply coupon code to online order? {#coupon}
 
