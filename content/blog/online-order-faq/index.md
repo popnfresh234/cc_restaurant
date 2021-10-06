@@ -73,8 +73,6 @@ You can always opt out this feature with the button shown here in the last step 
 <br/>
 ![](fast_checkout_03.webp "You can also opt out here")
 
-
-
 ### Q: How to schedule my pick up order for later? {#future-order}
 
 1. Click on the default pick up time, and a "Change Order Time" window will pop up. 
@@ -93,13 +91,13 @@ Click on "Yes, change time button. "
 
 ![](chrome_rcqwhdskcr.png "[Change Order Time] window pops up and Click on [Yes, change time] button.")
 
-2. Click to choose the date of the delivery and roll down to choose 3pm . 
+2. Click to choose the date of the delivery and roll down to choose the time you'd like to pick up . 
 
-Click the  "change (mmm. dd (3:00pm.)" button.
+Click the  "change (mmm. dd (0:00pm.)" button.
 
 And Click on "Check out" again.
 
-![](chrome_ajsrfxgstk.png "Select the date of the delivery and select 3pm (or anytime from 3 to 5pm), and then click the [change  (mmm. dd (3:00pm.)] button.")
+![](chrome_ajsrfxgstk.png "Select the date and time and then click the [change  (mmm. dd (0:00pm.)] button.")
 
 ![](chrome_rykmdvv77t.png "Click on [Check out] again.")
 
@@ -126,5 +124,3 @@ And Click on "Check out" again.
 ![2020-04-26_1051.png](https://mail.google.com/mail/u/0?ui=2&ik=5f23e6f096&attid=0.4&permmsgid=msg-a:r-1523976636156290969&th=174c363d14239e2d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-P9z9MU3wEaBMi7Z08uo1THLMdpRcp8brWqp-9GLNklSS5990AvCMLn9rQZ0ZfEmJHhW-sOZXjfROcZob2q81O_vck1CdcwpZZtafbvv8EoU006uifcUk8OSU&disp=emb&realattid=ii_k9hd526m3)
 
 <!--EndFragment-->
-
-###
