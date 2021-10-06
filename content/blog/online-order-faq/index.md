@@ -91,7 +91,7 @@ Click on "Yes, change time button. "
 
 ![](chrome_rcqwhdskcr.png "[Change Order Time] window pops up and Click on [Yes, change time] button.")
 
-2. Click to choose the date of the delivery and roll down to choose the time you'd like to pick up . 
+2. Click to choose the date and the time you'd like to pick up . 
 
 Click the  "change (mmm. dd (0:00pm.)" button.
 
