@@ -41,10 +41,11 @@ const BusinessHours = () => {
           </Row>
 
           {data.allBusinessHoursCsv.nodes.map((day, i) => {
+            console.log(day)
             return (
               <Row key={day.day}>
                 <Cell>{day.day}</Cell>
-                {i !== 0 ? (
+                {i !== 0 && i !== 1 ? (
                   <Cell>
                     {getFormattedTime(day.open)}
                     {" ~ "}

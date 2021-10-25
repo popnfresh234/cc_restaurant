@@ -36,7 +36,6 @@ const getNextFourDates = (allDates, currentDate) => {
 }
 
 const getFormattedTime = time => {
-  console.log(time)
   //Set an arbitrary date so we can parse it
   const isDst = new Date().isDstObserved()
   const timezoneOffset = isDst ? "08:00" : "07:00"
