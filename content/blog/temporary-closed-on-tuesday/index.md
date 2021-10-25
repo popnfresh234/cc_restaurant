@@ -1,5 +1,5 @@
 ---
-title: TEMPORARY CLOSED ON TUESDAY
+title: Temporary closed on Tuesdays
 featuredImage: gold-photo-cooking-food-instagram-post.png
 date: 2021-10-25T23:21:39.553Z
 description: Temporary business hours change
