@@ -66,11 +66,11 @@ const Delivery = ({ location }) => {
             <SpacerDiv />
           </ExternalLink>
 
-          <InternalLink to="../bowen">
+          {/* <InternalLink to="../bowen">
             <SpacerDiv />
             <AnimatedButton flex={2} text="Bowen Island Special Delivery" />
             <SpacerDiv />
-          </InternalLink>
+          </InternalLink> */}
         </Wrapper>
       </Layout>
     </>

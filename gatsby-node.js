@@ -3,6 +3,13 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
+  const {createRedirect} = actions
+  createRedirect({
+    fromPath: `/bowen`,
+    toPath: `/`,
+    redirectInBrowser: true,
+    isPermanent: true,
+  })
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
