@@ -60,7 +60,7 @@ const MenuNav = ({ menuItems }) => {
           <MenuNavButton text="TOFU 。 EGGS。VEGETABLES" id="#j00" />
           <MenuNavButton text="CHOW MEIN 。 FRIED RICE" id="#k00" />
           <MenuNavButton text="drunken monkey" id="#m00" />
-          <MenuNavButton text="Frozen Foods" id="#w00" />
+          {/* <MenuNavButton text="Frozen Foods" id="#w00" /> */}
         </MenuNavContainer>
       </StickyDiv>
       <NoStyleOl>{menuItems}</NoStyleOl>
