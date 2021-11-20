@@ -38,7 +38,7 @@ const getNextFourDates = (allDates, currentDate) => {
 const getFormattedTime = time => {
   //Set an arbitrary date so we can parse it
   const isDst = new Date().isDstObserved()
-  const timezoneOffset = isDst ? "08:00" : "07:00"
+  const timezoneOffset = isDst ? "07:00" : "08:00"
   const arbitraryDate = new Date(
     `30 December 1985 ` + time + " GMT-" + timezoneOffset
   )
