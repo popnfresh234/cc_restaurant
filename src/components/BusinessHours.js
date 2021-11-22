@@ -45,7 +45,7 @@ const BusinessHours = () => {
             return (
               <Row key={day.day}>
                 <Cell>{day.day}</Cell>
-                {i !== 0 && i !== 1 ? (
+                {i !== 0 ? (
                   <Cell>
                     {getFormattedTime(day.open)}
                     {" ~ "}
