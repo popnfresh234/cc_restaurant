@@ -7,7 +7,7 @@ description: Closed on Christmas Day
 <!--StartFragment-->
 
 We will be close on Christmas day and come back for service 4pm on boxing day, the 26th!\
-Lunch service will be closed on Saturday and Sunday from this week.\
+Lunch service will be closed on Saturday and Sunday from Dec 18th, 2021.\
 \
 Regular Business Hours :\
 TUE - FRI : 12 to 9pm\
