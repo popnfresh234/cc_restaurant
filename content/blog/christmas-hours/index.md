@@ -2,14 +2,16 @@
 title: Christmas Hours
 featuredImage: xmasdaynotice.png
 date: 2021-12-15T23:17:49.349Z
-description: Closed on Christmas Day
+description: Closed on Christmas Day & Boxing Day
 ---
 <!--StartFragment-->
 
 Christmas is just around the corner!\
 We wish everyone a happy holiday season!
 
-We will be close on Christmas day and come back for service 4pm on boxing day, the 26th!\
+We will be close on Christmas day and Boxing Day, and we'll come back for service on Tuesday, Dec 28th.
+
+\
 Lunch service will be closed on Saturday and Sunday from Dec 18th, 2021.\
 \
 Regular Business Hours :\
