@@ -6,6 +6,9 @@ description: Closed on Christmas Day
 ---
 <!--StartFragment-->
 
+Christmas is just around the corner!\
+We wish everyone a happy holiday season!
+
 We will be close on Christmas day and come back for service 4pm on boxing day, the 26th!\
 Lunch service will be closed on Saturday and Sunday from Dec 18th, 2021.\
 \
