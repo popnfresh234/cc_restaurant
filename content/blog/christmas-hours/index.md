@@ -9,7 +9,21 @@ description: Closed on Christmas Day & Boxing Day
 Christmas is just around the corner!\
 We wish everyone a happy holiday season!
 
-We will be close on Christmas day and Boxing Day, and we'll come back for service on Tuesday, Dec 28th.\
+We will be close on Christmas day and Boxing Day, and we'll come back for service on Tuesday, Dec 28th.
+
+Dec. 23 (Thu) 12 pm to 9 pm
+
+Dec. 24 (Fri) 12 pm to 9 pm
+
+Dec. 25 (Sat) - Close
+
+Dec. 26 (Sun) - Close
+
+Dec. 27 (Mon) - Close
+
+Dec. 28 (Tue) 12 pm to 9 pm
+
+\
 Lunch service will be closed on Saturday and Sunday from Dec 18th, 2021.\
 \
 Regular Business Hours :\
