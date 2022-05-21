@@ -4,6 +4,8 @@ featuredImage: blue-fireworks-victoria-day-social-media-graphic.png
 date: 2022-05-21T01:09:41.664Z
 description: closed on May 21, Saturday
 ---
+![](blue-fireworks-victoria-day-social-media-graphic.png)
+
 <!--StartFragment-->
 
 The long weekend is coming!
