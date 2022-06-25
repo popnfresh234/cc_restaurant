@@ -39,24 +39,35 @@ const BusinessHours = () => {
           <Row>
             <h4>Business Hours</h4>
           </Row>
-
-          {data.allBusinessHoursCsv.nodes.map((day, i) => {
-            console.log(day)
-            return (
-              <Row key={day.day}>
-                <Cell>{day.day}</Cell>
-                {i !== 0 ? (
-                  <Cell>
-                    {getFormattedTime(day.open)}
-                    {" ~ "}
-                    {getFormattedTime(day.close)}
-                  </Cell>
-                ) : (
-                  <Cell>{day.open}</Cell>
-                )}
-              </Row>
-            )
-          })}
+          <Row>
+            <Cell>Monday</Cell>
+            <Cell>Closed</Cell>
+          </Row>
+          <Row>
+            <Cell>Tuesday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          <Row>
+            <Cell>Wednesday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          <Row>
+            <Cell>Thursday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          <Row>
+            <Cell>Friday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          <Row>
+            <Cell>Saturday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          <Row>
+            <Cell>Sunday</Cell>
+            <Cell>12:00PM ~ 9:00PM</Cell>
+          </Row>
+          
         </Wrapper>
       )}
     />
