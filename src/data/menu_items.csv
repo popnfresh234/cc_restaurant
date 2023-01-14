@@ -10,7 +10,7 @@ a09,Lettuce Wrap with Minced Duck,鴨肉生菜包,2095
 a06,Spring Roll,春卷,300
 a07,Pot Stickers 10 pcs,鍋貼,1250
 a10,Chinese Sausage,臘腸,1150
-a00,SOUPS。SOUP NOODLE,湯品。湯麵,
+b00,SOUPS。SOUP NOODLE,湯品。湯麵,
 b01,Wonton Soup,雲吞湯,995
 b02,Wor Wonton (15 pieces),窩雲吞,1950
 b03,Beef and Lettuce with Egg Swirl Soup,西湖牛肉湯,1250
@@ -24,7 +24,7 @@ b10,Fish Ball Soup Noodle,魚旦湯麵,1095
 b11,Pea And Egg Swirl Soup,丕豆蛋花湯,1095
 b12,Seafood and Bean Cake Soup,海鮮豆腐湯,1395
 b13,Hot Chili Tomato Soup,蕃茄酸辣湯,1250
-a00,CHICKEN,雞肉,
+c00,CHICKEN,雞肉,
 c01,Cashew Chicken,腰果雞丁,1750
 c02,Kung Pao Chicken,宮保雞丁,1750
 c03,Black Bean Chicken,豆豉雞丁,1750
@@ -41,7 +41,7 @@ c13,Chicken Hot Pot,雞肉煲,1995
 c14,General Tso’s Chicken,,
 d01,BBQ Duck Whole Duck,片皮鴨,4200
 d02,BBQ Duck Half Duck,片皮鴨,2400
-a00,BEEF,牛肉,
+e00,BEEF,牛肉,
 e01,Beef with Broccoli,百加利牛肉,1850
 e02,Ginger Beef (Hot),香辣牛肉絲,2195
 e03,Black Bean Beef with Green Beans,豉汁牛肉豆仔,1850
@@ -54,13 +54,13 @@ e09,Sliced Beef with Three Kinds of Mushrooms,三菇牛肉,2095
 e10,Sliced Beef with Tomatoes,蕃茄牛肉,2095
 e11,Sliced Beef Hot Pot,牛肉煲,2195
 e12,Sliced Beef Hot Pot with Lily Flower and Cloud Fungus,,
-a00,PORK,豬肉,
+f00,PORK,豬肉,
 f02,BBQ Pork with Tofu and Oyster Sauce,叉燒豆腐,1895
 f03,Sweet n Sour Pork,甜酸咕嚕肉,1895
 f04,Deep Fried Garlic Pork,蒜子肉,1895
 f05,Boneless Pork with Honey and Garlic Sauce,蒜子蜜糖豬肉,1895
 f06,Bean Cake with Spicy Meat Sauce,麻婆豆腐,1750
-a00,SEAFOOD,海鮮,
+h00,SEAFOOD,海鮮,
 h01,Deep Fried Sweet and Sour Fish Balls with Pineapples,甜酸魚球,1895
 h02,Sliced Fish with Mixed Greens,時菜魚片,1895
 h03,Fried Fish with Garlic Salt and Chili Pepper,椒鹽魚柳,1995
@@ -77,7 +77,7 @@ h13,Prawns with Three Kinds of Mushrooms,三菇蝦球,2250
 h14,Fried Squid with Garlic Salt and Chili Pepper,椒鹽鮮魷,2250
 h15,Squid in Black Bean Sauce,豉汁鮮魷,2050
 h16,Fish Balls in Curry Sauce,咖喱魚旦,1750
-a00,TOFU 。 EGGS。VEGETABLES,豆腐。蛋。蔬菜,
+j00,TOFU 。 EGGS。VEGETABLES,豆腐。蛋。蔬菜,
 j01,Pork Egg Foo Young,叉燒芙蓉蛋,1550
 j02,Mushrooms Egg Foo Young,蘑菇芙蓉蛋,1550
 j03,Prawns Egg Foo Young,蝦芙蓉蛋,1695
@@ -101,7 +101,7 @@ j20,Buddha's Delight,羅漢齋,2095
 j21,Garlic Salt and Chili Pepper Deep Fried Cauliflower (Hot),,1650
 j22,Sweet and Sour Cauliflower with Pineapple,,
 j23,Green Beans with Spicy Minced Meat Sauce,,
-a00,CHOW MEIN 。 FRIED RICE,飯。麵,
+k00,CHOW MEIN 。 FRIED RICE,飯。麵,
 k01,Chicken Fried Rice,雞肉炒飯,1395
 k02,Prawns Fried Rice,蝦仁炒飯,1495
 k03,Vegetable Fried Rice,時菜炒飯,1395
@@ -136,7 +136,7 @@ k32,Beef Chow Fun (Thick Rice Noodle),干炒牛河,1650
 k33,Half & Half Fried Rice,鴛鴦炒飯,1850
 l01,Breaded Deep Fried Banana,炸香蕉,1150
 l02,Breaded Deep Fried Lychee in Sweet and Sour sauce,酥炸甜酸荔枝,1150
-a00,NEW DISHES FROM DRUNKEN MONKEY,醉悟空新菜推薦,
+m00,NEW DISHES FROM DRUNKEN MONKEY,醉悟空新菜推薦,
 m01,3 Cups Tofu,三杯豆腐,1250
 m03,3 Cups Chicken,三杯雞丁,1695
 m11,Scramble Eggs With Prawns,滑蛋蝦仁,1995
