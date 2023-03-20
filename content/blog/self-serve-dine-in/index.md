@@ -4,6 +4,8 @@ featuredImage: selfserve.png
 date: 2023-03-20T01:03:28.889Z
 description: Introducing Self-serve dine-in
 ---
+![](selfserve.png)
+
 <!--StartFragment-->
 
 Dear customers,
