@@ -22,6 +22,6 @@ Best Regards,
 
 CC's Chinese Restaurant
 
-I﻿mage background designed by pikisuperstar / Freepik"<a href="http://www.freepik.com">Designed by pikisuperstar / Freepik</a>
+I﻿mage background <a href="http://www.freepik.com">Designed by pikisuperstar / Freepik</a>
 
 <!--EndFragment-->
