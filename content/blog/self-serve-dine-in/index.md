@@ -12,7 +12,7 @@ Due to ongoing staffing challenges we are introducing a new self-serve dine-in s
 
 There will be a QR code on your table, You can use your phones to scan the QR code, view our menu, and order your dishes right from your table!
 
-Staff will bring the dishes to your table but please help yourself with the provided plates, chopsticks, forks, spoon, napkins, and water cups.
+Staff will bring th e dishes to your table but please help yourself with the provided plates, chopsticks, forks, spoon, napkins, and water cups.
 
 We'll be grateful if you can also help to bring the disposable tableware to the recycling area after your meal.
 
@@ -21,5 +21,7 @@ We appreciate your patience and cooperation, we are exploring every option we ca
 Best Regards,
 
 CC's Chinese Restaurant
+
+I﻿mage background designed by pikisuperstar / Freepik"<a href="http://www.freepik.com">Designed by pikisuperstar / Freepik</a>
 
 <!--EndFragment-->
