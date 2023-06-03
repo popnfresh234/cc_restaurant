@@ -4,6 +4,8 @@ featuredImage: addonfrozen.png
 date: 2023-06-03T08:05:51.196Z
 description: Ready-Made frozen Chinese food
 ---
+![](4forzenpack2.jpg "F")
+
 <!--StartFragment-->
 
 🥡 Craving the taste of authentic Chinese cuisine?
@@ -66,8 +68,6 @@ https://ccs-chinese-restaurant-online-order.square.site/
 ![](frozen_food_02.webp "﻿Microwave Prep, Step One")
 
 ![](frozen_food_03.webp "﻿Microwave Prep, Step Two")
-
-
 
 - - -
 
