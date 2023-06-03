@@ -4,7 +4,7 @@ featuredImage: addonfrozen.png
 date: 2023-06-03T08:05:51.196Z
 description: Ready-Made frozen Chinese food
 ---
-![](4forzenpack2.jpg "F")
+![](4forzenpack2.jpg)
 
 <!--StartFragment-->
 
