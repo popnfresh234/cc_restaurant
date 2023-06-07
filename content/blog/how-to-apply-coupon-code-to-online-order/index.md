@@ -23,7 +23,7 @@ description: Please refer to the instruction below on how to apply the coupon
 
 ![2020-04-26_1050_001.png](https://mail.google.com/mail/u/0?ui=2&ik=5f23e6f096&attid=0.3&permmsgid=msg-a:r-1523976636156290969&th=174c363d14239e2d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-k5R61gWr8DYHNcqctovD9oTzUI-9fd4G9Cij7UqCNDkzZT1H0tDfUNKSdTshXg__rTU4HkHWuriwziElCIQrkkxkzfJcYogIUDm_Hz75NwJfGz1kXRBNwjdc&disp=emb&realattid=ii_k9hd3cws2)
 
-5. The 20% discount will be applied to the total amount, and proceed to Checkout.
+5. The discount will be applied to the total amount, and proceed to Checkout.
 
 ![2020-04-26_1051.png](https://mail.google.com/mail/u/0?ui=2&ik=5f23e6f096&attid=0.4&permmsgid=msg-a:r-1523976636156290969&th=174c363d14239e2d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-P9z9MU3wEaBMi7Z08uo1THLMdpRcp8brWqp-9GLNklSS5990AvCMLn9rQZ0ZfEmJHhW-sOZXjfROcZob2q81O_vck1CdcwpZZtafbvv8EoU006uifcUk8OSU&disp=emb&realattid=ii_k9hd526m3)
 
