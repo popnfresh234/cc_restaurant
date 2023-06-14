@@ -19,10 +19,5 @@ Introducing our incredible Frozen Food Variety Pack, filled with all your favori
 
 ✨ Treat yourself to a mouthwatering Chinese feast today. Your taste buds will thank you! 🙌❤️
 
-#FrozenFoodVarietyPack #ChineseCuisine #DeliciousDeals #ConvenienceAtHome #AuthenticFlavors #LimitedTimeOffer #StockUpYourFreezer #TasteTheDifference #CCsChineseRestaurant #OrderNow
-
 <video width="640" autoplay loop>
-  <source src="https://www.anniekwhsu.com/wp-content/uploads/2023/06/Copy-of-frozen-BOGO-1028.mp4" type="video/mp4">
-
-Your browser does not support the video tag.
-</video>
+  <source src="https://www.anniekwhsu.com/wp-content/uploads/2023/06/Copy-of-frozen-BOGO-1028.mp4" type="video/mp4"></video>
