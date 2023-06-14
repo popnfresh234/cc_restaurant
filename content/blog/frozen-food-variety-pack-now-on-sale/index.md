@@ -4,12 +4,7 @@ featuredImage: copy-of-frozen-bogo-1028.jpg
 date: 2023-06-14T18:31:31.241Z
 description: " 🔥 Unleash Your Inner Foodie: Frozen Food Variety Pack Now on Sale! 🥡🍲"
 ---
-```
-<video width="640" autoplay loop>
-  <source src="https://www.anniekwhsu.com/wp-content/uploads/2023/06/Copy-of-frozen-BOGO-1028.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-```
+![](copy-of-frozen-bogo-1028.jpg)
 
 <h4>📣 Craving a delicious Chinese feast at home? 🥡🔥 Look no further!</h4>
 
