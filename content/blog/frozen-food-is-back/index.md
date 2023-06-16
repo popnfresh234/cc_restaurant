@@ -24,7 +24,7 @@ Explore our menu options, including Hot and Sour Soup, Chicken Chow Mein, House 
 
 🍲🥢 Don't miss out on these delectable additions!
 
-Prices start at just $8.95.
+Prices start at just $9.95
 
 Place your order online at
 
@@ -34,13 +34,13 @@ https://ccs-chinese-restaurant-online-order.square.site/
 
 <div align="center">
     <h4>The At-Home Menu</h4>
-    <span>酸辣湯 Hot and Sour Soup $ 8.95</span>
+    <span>酸辣湯 Hot and Sour Soup $ 9.95</span>
     <br><br>    
-    <span>雞絲炒麵 Chicken Chow Mein $ 9.95</span>
+    <span>雞絲炒麵 Chicken Chow Mein $ 10.95</span>
     <br><br>       
-    <span>揚州炒飯 House Fried Rice $ 10.95</span>
+    <span>揚州炒飯 House Fried Rice $ 11.95</span>
     <br><br>
-    <span>甜酸咕嚕肉 Sweet and Sour Boneless Pork $ 12.95</span>
+    <span>甜酸咕嚕肉 Sweet and Sour Boneless Pork $ 13.95</span>
 </div>
 <br>
 
